@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ComposerIQ — Visibility Engine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Spotify-inspired Dark Theme Colors */
+      --bg-main: #121212;
+      --bg-sidebar: #000000;
+      --bg-card: #181818;
+      --border-color: #282828;
+      --text-main: #FFFFFF;
+      --text-muted: #B3B3B3;
+
+      --accent-purple: #1DB954;
+      --accent-purple-hover: #1ed760;
+      --accent-red: #E91429;
+      --accent-blue: #2E77D0;
+      --accent-green: #1DB954;
+      --accent-orange: #FFC864;
+
+      --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --radius-lg: 8px;
+      --radius-md: 6px;
+      --radius-sm: 4px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: 'Inter', system-ui, sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* LAYOUT */
+    .sidebar {
+      width: 260px;
+      background-color: var(--bg-sidebar);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      padding: 24px 20px;
+      flex-shrink: 0;
+    }
+
+    .main-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .topbar {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+
+    .content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 32px;
+    }
+
+    /* SIDEBAR */
+    .logo {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo .brand-name {
+      color: var(--accent-red);
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+
+    .logo .brand-sub {
+      color: var(--text-main);
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 2px;
+      opacity: 0.8;
+    }
+
+    .nav-menu {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .nav-item:hover {
+      color: var(--text-main);
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .nav-item.active {
+      background: #282828;
+      color: #fff;
+    }
+
+    .nav-item svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+
+    .nav-divider {
+      height: 1px;
+      background-color: var(--border-color);
+      margin: 20px 0;
+    }
+
+    .toggle-theme {
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px;
+      color: var(--text-muted);
+      font-size: 12px;
+    }
+
+    /* TOPBAR */
+    .page-title {
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .top-widgets {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .widget-pill {
+      background-color: var(--bg-sidebar);
+      border: 1px solid var(--border-color);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .search-box input {
+      background: transparent;
+      border: none;
+      color: var(--text-main);
+      outline: none;
+      width: 200px;
+      font-size: 13px;
+    }
+
+    .user-profile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--accent-purple);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    /* MAIN GRID */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-auto-rows: min-content;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: var(--bg-card);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--card-shadow);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border-color);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* UPLOAD SECTION (Spans 4 cols) */
+    .upload-area {
+      grid-column: span 4;
+    }
+
+    .drop-zone {
+      border: 2px dashed rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-md);
+      padding: 30px 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: 20px;
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .drop-zone:hover,
+    .drop-zone.drag-over {
+      border-color: var(--accent-purple);
+      background: rgba(147, 51, 234, 0.05);
+    }
+
+    .drop-icon {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .file-name {
+      font-size: 13px;
+      color: var(--accent-purple-hover);
+      margin-top: 8px;
+      font-weight: 500;
+      display: none;
+    }
+
+    .field {
+      margin-bottom: 16px;
+    }
+
+    .field label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+
+    .field input,
+    .field select {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      color: var(--text-main);
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .field input:focus,
+    .field select:focus {
+      border-color: var(--accent-purple);
+    }
+
+    .field select option {
+      background: var(--bg-card);
+      color: var(--text-main);
+    }
+
+    .analyze-btn {
+      width: 100%;
+      padding: 14px;
+      background: var(--accent-green);
+      border: none;
+      border-radius: 500px;
+      color: #000;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .analyze-btn:hover {
+      transform: scale(1.04);
+      background: var(--accent-purple-hover);
+    }
+
+    .analyze-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* KPI CARDS (Mini - Span 2 cols each, total 4 cols if we have 2) */
+    .kpi-row {
+      grid-column: span 8;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .kpi-card {
+      background-color: var(--bg-card);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      border: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .kpi-card-title {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .kpi-value {
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: 10px;
+      color: var(--text-main);
+    }
+
+    .kpi-sub {
+      font-size: 11px;
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .kpi-up {
+      color: var(--accent-green);
+    }
+
+    .kpi-down {
+      color: var(--accent-red);
+    }
+
+    .kpi-neutral {
+      color: var(--accent-orange);
+    }
+
+    /* Sparkline SVGs for KPI cards */
+    .sparkline {
+      width: 100%;
+      height: 40px;
+      margin-top: 10px;
+    }
+
+    /* CHARTS ROW */
+    .energy-card {
+      grid-column: span 6;
+      min-height: 250px;
+    }
+
+    .bench-card {
+      grid-column: span 6;
+      min-height: 250px;
+    }
+
+    /* Energy Bars (Styled like the purple bar chart) */
+    .energy-bars {
+      display: flex;
+      gap: 6px;
+      align-items: flex-end;
+      height: 160px;
+      margin-top: auto;
+      padding-top: 20px;
+    }
+
+    .e-bar {
+      flex: 1;
+      border-radius: 2px 2px 0 0;
+      background: var(--accent-green);
+      min-height: 4px;
+      transition: height 0.5s ease-out;
+    }
+
+    .e-labels {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .e-label {
+      flex: 1;
+      text-align: center;
+      font-size: 10px;
+      color: var(--text-muted);
+    }
+
+    /* Benchmarks List (Styled like the Pages list) */
+    .bench-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .bench-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .bench-item:last-child {
+      border-bottom: none;
+    }
+
+    .bench-info .name {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-main);
+    }
+
+    .bench-info .artist {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .bench-bar-container {
+      width: 100px;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .bench-bar {
+      height: 100%;
+      background: var(--accent-red);
+      border-radius: 2px;
+    }
+
+    /* REPORT AREA */
+    .report-area {
+      grid-column: span 12;
+      display: none;
+    }
+
+    .report-body {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text-muted);
+      white-space: pre-wrap;
+      margin-top: 10px;
+    }
+
+    .report-body h2 {
+      font-size: 16px;
+      color: var(--text-main);
+      margin: 20px 0 8px;
+      font-weight: 600;
+    }
+
+    .report-body h3 {
+      font-size: 14px;
+      color: var(--accent-purple-hover);
+      margin: 16px 0 4px;
+      font-weight: 500;
+    }
+
+    .report-body strong {
+      color: var(--text-main);
+    }
+
+    /* LOADING & STATES */
+    .state-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--bg-card);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      border-radius: var(--radius-lg);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      border-top-color: var(--accent-purple);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 16px;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loading-step {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+      transition: color 0.3s;
+    }
+
+    .loading-step.active {
+      color: var(--text-main);
+      font-weight: 500;
+    }
+
+    .loading-step.done {
+      color: var(--accent-green);
+    }
+
+    /* Emojis as icons */
+    i.icon {
+      font-style: normal;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <aside class="sidebar">
+    <div class="logo">
+      <span class="brand-name">Composer</span>
+      <span class="brand-sub">IQ Analytics</span>
+    </div>
+
+    <ul class="nav-menu">
+      <li class="nav-item active" onclick="switchTab('analyze')" id="nav-analyze">
+        <i class="icon">🔍</i> Analyze
+      </li>
+      <li class="nav-item" onclick="switchTab('reports')" id="nav-reports">
+        <i class="icon">📊</i> Reports
+      </li>
+    </ul>
+
+    <div class="toggle-theme">
+      <i class="icon">🌙</i> Dark theme active
+    </div>
+  </aside>
+
+  <div class="main-wrapper">
+    <header class="topbar">
+      <div class="page-title">Analysis Dashboard</div>
+
+      <div class="top-widgets">
+        <div style="display:none;" id="modePill"><span id="modeLabel"></span></div>
+        <div class="user-profile">
+          <div class="avatar">C</div>
+          <span>Composer</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="dashboard-grid">
+
+        <!-- VIEW: ANALYZE -->
+        <div id="view-analyze" style="grid-column: span 12; display: grid; grid-template-columns: repeat(12, 1fr); gap: 20px;">
+        <!-- UPLOAD WIDGET -->
+        <div class="card upload-area" style="grid-column: span 12;">
+          <div class="card-title">New Analysis</div>
+          <div class="drop-zone" id="dropZone">
+            <div class="drop-icon">🎵</div>
+            <p style="color:var(--text-main); font-size: 14px; font-weight: 500; margin-bottom: 4px;">Drop track here
+            </p>
+            <p style="color:var(--text-muted); font-size: 12px;">MP3 or WAV · up to 50MB</p>
+            <div class="file-name" id="fileName"></div>
+          </div>
+          <input type="file" id="fileInput" accept=".mp3,.wav,.flac,.m4a" style="display:none;" />
+
+          <div class="field">
+            <label>Target Genre</label>
+            <select id="genre">
+              <option value="hip-hop" selected>Hip-Hop</option>
+              <option value="pop">Pop</option>
+              <option value="r&b">R&B</option>
+              <option value="electronic">Electronic</option>
+              <option value="indie pop">Indie Pop</option>
+              <option value="ambient">Ambient</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Track Mood</label>
+            <input type="text" id="mood" placeholder="e.g. upbeat, melancholic" value="introspective" />
+          </div>
+
+          <button class="analyze-btn" id="analyzeBtn" onclick="analyze()">Run Analytics</button>
+        </div>
+        </div> <!-- END VIEW: ANALYZE -->
+
+        <!-- VIEW: REPORTS -->
+        <div id="view-reports" class="hidden" style="grid-column: span 12; display: grid; grid-template-columns: repeat(12, 1fr); gap: 20px;">
+        <!-- KPIs ROW -->
+        <div class="kpi-row">
+          <div class="kpi-card">
+            <div class="kpi-card-title">Engagement Score</div>
+            <div class="kpi-value" id="engScore">—</div>
+            <div class="kpi-sub kpi-neutral" id="engSub">Upload to score</div>
+            <svg class="sparkline" viewBox="0 0 100 30" preserveAspectRatio="none">
+              <path d="M0,25 Q10,10 20,20 T40,15 T60,25 T80,5 T100,20" fill="none" stroke="var(--accent-orange)"
+                stroke-width="2" />
+            </svg>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-card-title">Spotifycore Score</div>
+            <div class="kpi-value" id="spScore">—</div>
+            <div class="kpi-sub kpi-neutral" id="spSub">Algorithmic alignment</div>
+            <svg class="sparkline" viewBox="0 0 100 30" preserveAspectRatio="none">
+              <path d="M0,20 Q15,5 30,25 T60,10 T80,25 T100,5" fill="none" stroke="var(--accent-blue)"
+                stroke-width="2" />
+            </svg>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-card-title">Track Flow</div>
+            <div class="kpi-value" id="kpiTempo" style="font-size:24px;">—</div>
+            <div class="kpi-sub kpi-up" id="kpiKey">Key / BPM</div>
+            <svg class="sparkline" viewBox="0 0 100 30" preserveAspectRatio="none">
+              <path d="M0,15 L20,15 L25,5 L30,25 L35,15 L100,15" fill="none" stroke="var(--accent-green)"
+                stroke-width="2" />
+            </svg>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-card-title">First 30s Risk</div>
+            <div class="kpi-value" id="kpiRisk" style="font-size:24px;">—</div>
+            <div class="kpi-sub kpi-neutral">Skip probability</div>
+            <svg class="sparkline" viewBox="0 0 100 30" preserveAspectRatio="none">
+              <path d="M0,5 Q20,25 40,5 T80,25 T100,10" fill="none" stroke="var(--accent-red)" stroke-width="2" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- CHARTS ROW -->
+        <div class="card energy-card">
+          <div class="card-title">Middle time on site <span
+              style="font-size:10px; font-weight:400; color:var(--text-muted); background:rgba(255,255,255,0.05); padding:2px 8px; border-radius:10px;">Energy
+              Curve</span></div>
+          <div class="state-layer" id="energyEmpty">
+            <i class="icon" style="font-size:24px; opacity:0.5; margin-bottom:10px;">📊</i>
+            <span style="font-size:12px; color:var(--text-muted);">Awaiting audio analysis</span>
+          </div>
+          <div class="energy-bars" id="energyBars"></div>
+          <div class="e-labels" id="eLabels" style="display:none;">
+            <div class="e-label">0s</div>
+            <div class="e-label">5s</div>
+            <div class="e-label">10s</div>
+            <div class="e-label">15s</div>
+            <div class="e-label">20s</div>
+            <div class="e-label">25s</div>
+          </div>
+        </div>
+
+        <div class="card bench-card">
+          <div class="card-title">Pages <span
+              style="font-size:10px; font-weight:400; color:var(--text-muted); background:rgba(255,255,255,0.05); padding:2px 8px; border-radius:10px;">Benchmarked
+              Tracks</span></div>
+          <div class="state-layer" id="benchEmpty">
+            <i class="icon" style="font-size:24px; opacity:0.5; margin-bottom:10px;">🎧</i>
+            <span style="font-size:12px; color:var(--text-muted);">Awaiting semantic search</span>
+          </div>
+          <div class="bench-list" id="benchList"></div>
+        </div>
+
+        <!-- REPORT ROW -->
+        <div class="card report-area" id="reportArea" style="display:flex;">
+          <div class="card-title">AI Insights & Actionable Feedback</div>
+          <div class="report-body" id="reportBody"></div>
+        </div>
+        </div> <!-- END VIEW: REPORTS -->
+
+        <!-- LOADING OVERLAY FOR DASHBOARD -->
+        <div id="globalLoading" class="state-layer hidden"
+          style="background: rgba(29, 29, 46, 0.85); backdrop-filter: blur(4px); z-index: 100; position: fixed; right: 32px; bottom: 32px; width: 300px; height: 180px; border: 1px solid var(--border-color); box-shadow: var(--card-shadow); border-radius: var(--radius-lg); top: auto; left: auto;">
+          <div class="spinner"></div>
+          <div id="step1" class="loading-step">Loading audio file...</div>
+          <div id="step2" class="loading-step">Analyzing waveform...</div>
+          <div id="step3" class="loading-step">Detecting hook timing...</div>
+          <div id="step4" class="loading-step">Retrieving benchmarks...</div>
+          <div id="step5" class="loading-step">Generating report...</div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Routing logic
+    function switchTab(tab, pushState = true) {
+      if (tab === 'analyze') {
+        document.getElementById('view-analyze').classList.remove('hidden');
+        document.getElementById('view-reports').classList.add('hidden');
+        document.getElementById('nav-analyze').classList.add('active');
+        document.getElementById('nav-reports').classList.remove('active');
+        if (pushState) history.pushState({}, '', '/analyze');
+      } else if (tab === 'reports') {
+        document.getElementById('view-analyze').classList.add('hidden');
+        document.getElementById('view-reports').classList.remove('hidden');
+        document.getElementById('nav-analyze').classList.remove('active');
+        document.getElementById('nav-reports').classList.add('active');
+        if (pushState) history.pushState({}, '', '/reports');
+      }
+    }
+
+    window.addEventListener('popstate', () => {
+      if (window.location.pathname === '/reports') switchTab('reports', false);
+      else switchTab('analyze', false);
+    });
+
+    document.addEventListener("DOMContentLoaded", () => {
+      if (window.location.pathname === '/reports') {
+        switchTab('reports', false);
+      } else {
+        switchTab('analyze', false);
+      }
+    });
+
+    let selectedFile = null;
+
+    // Drag and drop logic
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+
+    dropZone.addEventListener('click', () => fileInput.click());
+    dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+    dropZone.addEventListener('drop', e => {
+      e.preventDefault();
+      dropZone.classList.remove('drag-over');
+      const file = e.dataTransfer.files[0];
+      if (file) setFile(file);
+    });
+    fileInput.addEventListener('change', e => { if (e.target.files[0]) setFile(e.target.files[0]); });
+
+    function setFile(file) {
+      selectedFile = file;
+      const fn = document.getElementById('fileName');
+      fn.textContent = file.name + ' (' + (file.size / 1024 / 1024).toFixed(1) + ' MB)';
+      fn.style.display = 'block';
+      dropZone.querySelector('.drop-icon').textContent = '✅';
+    }
+
+    async function animateSteps() {
+      const steps = ['step1', 'step2', 'step3', 'step4', 'step5'];
+      const delays = [400, 900, 1500, 2200, 3000];
+      for (let i = 0; i < steps.length; i++) {
+        await new Promise(r => setTimeout(r, delays[i]));
+        if (i > 0) document.getElementById(steps[i - 1]).classList.replace('active', 'done');
+        document.getElementById(steps[i]).classList.add('active');
+      }
+    }
+
+    function showLoading() {
+      const l = document.getElementById('globalLoading');
+      l.classList.remove('hidden');
+      ['step1', 'step2', 'step3', 'step4', 'step5'].forEach(s => {
+        document.getElementById(s).className = 'loading-step';
+      });
+      document.getElementById('step1').classList.add('active');
+      animateSteps();
+    }
+
+    function updateKPI(id, val, subId, isGood) {
+      document.getElementById(id).textContent = val;
+      const subEl = document.getElementById(subId);
+      if (subEl) {
+        if (isGood === true) subEl.className = 'kpi-sub kpi-up';
+        else if (isGood === false) subEl.className = 'kpi-sub kpi-down';
+        else subEl.className = 'kpi-sub kpi-neutral';
+      }
+    }
+
+    function showResults(data) {
+      document.getElementById('globalLoading').classList.add('hidden');
+
+      const eng = data.engagement_score ?? 0;
+      const sp = data.spotifycore_score ?? 0;
+
+      updateKPI('engScore', eng, 'engSub', eng >= 70 ? true : (eng < 50 ? false : null));
+      if (document.getElementById('engSub')) document.getElementById('engSub').innerHTML = eng >= 70 ? '↑ Top 20%' : '↓ Needs work';
+
+      updateKPI('spScore', sp, 'spSub', sp >= 70 ? true : (sp < 50 ? false : null));
+      if (document.getElementById('spSub')) document.getElementById('spSub').innerHTML = sp >= 70 ? '↑ High alignment' : '↓ Low alignment';
+
+      document.getElementById('kpiTempo').textContent = data.tempo ? Math.round(data.tempo) + ' BPM' : '—';
+      document.getElementById('kpiKey').textContent = data.key ? 'Key: ' + data.key : '';
+
+      // intro_skip_risk may be a dict {skip_risk_score, factors} or a legacy string
+      const skipRaw = data.intro_skip_risk;
+      let skipLabel = '—';
+      let skipScore = null;
+      if (typeof skipRaw === 'string') {
+        skipLabel = skipRaw;
+      } else if (skipRaw && typeof skipRaw === 'object') {
+        skipScore = skipRaw.skip_risk_score ?? null;
+      }
+      // Prefer top-level skip_risk_score from MIR analysis if available
+      if (data.skip_risk_score != null) skipScore = data.skip_risk_score;
+      if (skipScore != null) {
+        skipLabel = skipScore >= 65 ? 'HIGH' : (skipScore >= 35 ? 'MEDIUM' : 'LOW');
+      }
+      document.getElementById('kpiRisk').textContent = skipLabel;
+      if (skipLabel === 'HIGH') document.getElementById('kpiRisk').style.color = 'var(--accent-red)';
+      else if (skipLabel === 'LOW') document.getElementById('kpiRisk').style.color = 'var(--accent-green)';
+      else document.getElementById('kpiRisk').style.color = 'var(--accent-orange)';
+
+      // Energy Chart
+      if (data.energy_curve && data.energy_curve.length > 0) {
+        document.getElementById('energyEmpty').style.display = 'none';
+        document.getElementById('eLabels').style.display = 'flex';
+        const bars = document.getElementById('energyBars');
+        bars.innerHTML = '';
+        const max = Math.max(...data.energy_curve, 0.001);
+        data.energy_curve.forEach(e => {
+          const bar = document.createElement('div');
+          bar.className = 'e-bar';
+          // simulate the bar heights popping up
+          setTimeout(() => {
+            bar.style.height = Math.max(4, (e / max) * 160) + 'px';
+          }, 50);
+          bars.appendChild(bar);
+        });
+      }
+
+      // Benchmarks list
+      if (data.benchmarks && data.benchmarks.length > 0) {
+        document.getElementById('benchEmpty').style.display = 'none';
+        const bl = document.getElementById('benchList');
+        bl.innerHTML = data.benchmarks.map((b, i) => {
+          const pop = b.popularity || (90 - i * 5); // Fallback for visual
+          const barColor = i === 0 ? "var(--accent-red)" : (i === 1 ? "var(--accent-blue)" : "var(--accent-purple)");
+          return `
+      <div class="bench-item">
+        <div class="bench-info">
+          <div class="name">${b.name || 'Unknown'}</div>
+          <div class="artist">${b.artist || ''}</div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:11px; color:var(--text-muted);">${pop} / 100</span>
+          <div class="bench-bar-container">
+            <div class="bench-bar" style="width: ${pop}%; background: ${barColor}"></div>
+          </div>
+        </div>
+      </div>
+    `}).join('');
+      }
+
+      // Report Area
+      document.getElementById('reportArea').style.display = 'flex';
+      const rb = document.getElementById('reportBody');
+      const raw = data.report || '';
+      rb.innerHTML = raw
+        .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+        .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\n(?!<)/g, '<br/>');
+    }
+
+    async function analyze() {
+      if (!selectedFile) {
+        alert('Please select an audio file first.');
+        return;
+      }
+
+      const btn = document.getElementById('analyzeBtn');
+      btn.disabled = true;
+      btn.textContent = 'Processing...';
+      showLoading();
+
+      const formData = new FormData();
+      formData.append('audio_file', selectedFile);
+      formData.append('genre', document.getElementById('genre').value);
+      formData.append('mood', document.getElementById('mood').value);
+
+      try {
+        const res = await fetch('/analyze', { method: 'POST', body: formData });
+        if (!res.ok) {
+          const err = await res.json();
+          throw new Error(err.detail || 'Server error');
+        }
+        const data = await res.json();
+        showResults(data);
+        switchTab('reports');
+      } catch (e) {
+        document.getElementById('globalLoading').classList.add('hidden');
+        alert('Error: ' + e.message);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Run Analytics';
+      }
+    }
+
+  </script>
+</body>
+
+</html>

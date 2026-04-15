@@ -1,0 +1,35 @@
+[
+  {
+    "question": "My ambient electronic track has a hook at 22 seconds and HIGH skip risk. What should I fix?",
+    "answer": "Your hook arrives at 22 seconds — significantly later than the benchmark window for ambient electronic, where top-performing tracks hit their most distinctive moment before 14 seconds. The three benchmark tracks retrieved (Weightless by Marconi Union, An Ending Ascent by Brian Eno, Avril 14th by Aphex Twin) all establish recognizable texture within 8-12 seconds. Your intro energy averages 0.11 RMS versus a track peak of 0.82 — a ratio of 0.13, well below the 0.40 threshold for LOW skip risk. Fix 1: Trim your intro by 8 seconds to bring the hook to 14s. Fix 2: Raise the first 15 seconds energy with a filtered version of your main motif. Fix 3: The frequency spike at 4.2 seconds needs a narrow EQ cut in the 3-5kHz range.",
+    "contexts": [
+      "Benchmark: Weightless by Marconi Union. Genre: ambient electronic. Hook arrival: 8s. Intro skip risk: LOW. Energy ratio: 0.71. Popularity: 84. Track opens with immediately recognizable texture establishing mood within 10 seconds.",
+      "Benchmark: An Ending Ascent by Brian Eno. Genre: ambient electronic. Hook arrival: 12s. Skip risk: LOW. Energy ratio: 0.62. Gradual pad build creates anticipation within 12 seconds.",
+      "Benchmark: Avril 14th by Aphex Twin. Genre: ambient electronic. Hook arrival: 3s. Skip risk: LOW. Energy ratio: 0.88. Piano motif enters immediately with zero extended intro.",
+      "Spotifycore methodology: Hook timing weight 30%, energy curve 25%, structural similarity 20%, duration 15%, intro energy ratio 10%.",
+      "Skip risk assessment: tracks with intro-to-peak energy ratio below 0.40 are classified HIGH skip risk. Spotify algorithm reduces recommendations for tracks with early skip signals."
+    ],
+    "ground_truth": "Move hook to before 14s by trimming intro, raise intro energy, apply EQ cut at the 4.2s frequency spike."
+  },
+  {
+    "question": "What is the Spotifycore score and what does it mean for my creative decisions?",
+    "answer": "The Spotifycore score measures how aligned your creative choices are with what the Spotify algorithm currently rewards in your genre. A score of 35/100 means your track — with its extended atmospheric intro, unconventional structure, and absence of a traditional hook — diverges significantly from algorithmic playlist patterns. This does not mean the track is bad. It means the algorithm needs stronger early engagement signals to overcome the structural mismatch. Tracks scoring below 40 on Spotifycore rarely appear in algorithmic playlists without curator intervention. You have two options: restructure toward the benchmark pattern (move hook earlier, reduce intro length) or accept the low Spotifycore and plan a curator-led promotional strategy targeting editorial playlists that value artistic experimentation.",
+    "contexts": [
+      "Spotifycore index: scores 0-100 measuring alignment with genre-specific algorithmic performance patterns. Key factors: hook timing 30%, energy curve predictability 25%, structural similarity to benchmarks 20%, duration alignment 15%, intro energy ratio 10%.",
+      "Tracks below score 40 rarely appear in algorithmic playlists without significant curator intervention based on streaming pattern analysis.",
+      "Artist case study: track with Spotifycore 28 achieved 2.1M streams through targeted human curation. Without editorial placement, organic algorithmic reach was under 5,000 streams in first 90 days.",
+      "Research: low Spotifycore predicts discovery channel, not streaming failure. Score above 65: primarily algorithmic discovery. Score 40-65: mixed. Score below 40: primarily editorial and social media driven."
+    ]
+  },
+  {
+    "question": "My indie pop track has lower save rate than genre average. Which engagement signals should I focus on?",
+    "answer": "For indie pop, three signals most strongly predict algorithmic recommendation: save rate above 20%, repeat listen ratio above 2.0x, and skip rate below 15% in first 30 seconds. Your hook arrives at 18 seconds — borderline for this genre where the benchmark average across Motion Sickness, Electric Feel, and Dog Days Are Over is 11 seconds. The energy curve shows a dip between 0:10 and 0:20 before the hook, which commonly causes abandonment. Top-performing indie pop benchmarks maintain energy above 0.45 RMS throughout the first 20 seconds. Focus: reduce the pre-hook energy dip, ensure your chorus is the strongest 30 seconds of the track since saves happen most during or immediately after the chorus, and strengthen the melodic hook for repeat listen ratio.",
+    "contexts": [
+      "Benchmark: Motion Sickness by Phoebe Bridgers. Genre: indie pop. Hook arrival: 14s. Energy maintained above 0.5 throughout first 20 seconds. Chorus is most energetically distinct section.",
+      "Benchmark: Electric Feel by MGMT. Genre: indie pop. Hook arrival: 12s. Bass and synth establish mood before 15 seconds. Chorus hit rate very high.",
+      "Benchmark: Dog Days Are Over by Florence and the Machine. Genre: indie pop. Hook arrival: 8s. Immediately recognizable, zero ambiguity about track sound within 8 seconds.",
+      "Engagement signal research: save rate above 20% and repeat listen ratio above 2.0x increase Discover Weekly appearance probability by up to 3x. Skip rate in first 30 seconds is the single most damaging algorithmic signal."
+    ],
+    "ground_truth": "Reduce pre-hook energy dip, strengthen chorus as the track's peak moment, improve melodic hook distinctiveness."
+  }
+]

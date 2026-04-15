@@ -1,0 +1,8 @@
+Collecting xgboost
+  Downloading xgboost-3.2.0-py3-none-win_amd64.whl.metadata (2.1 kB)
+Requirement already satisfied: numpy in .\venv\Lib\site-packages (from xgboost) (2.4.4)
+Requirement already satisfied: scipy in .\venv\Lib\site-packages (from xgboost) (1.17.1)
+Downloading xgboost-3.2.0-py3-none-win_amd64.whl (101.7 MB)
+   ---------------------------------------- 101.7/101.7 MB 26.7 MB/s  0:00:03
+Installing collected packages: xgboost
+Successfully installed xgboost-3.2.0

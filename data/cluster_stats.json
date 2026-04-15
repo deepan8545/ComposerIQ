@@ -1,0 +1,98 @@
+{
+  "0": {
+    "cluster_id": 0,
+    "n_tracks": 18,
+    "hook_time_mean": 8.986,
+    "hook_time_std": 3.503,
+    "skip_risk_mean": 0.1896,
+    "skip_risk_std": 0.1413
+  },
+  "1": {
+    "cluster_id": 1,
+    "n_tracks": 18,
+    "hook_time_mean": 6.99,
+    "hook_time_std": 2.032,
+    "skip_risk_mean": 0.1195,
+    "skip_risk_std": 0.0946
+  },
+  "2": {
+    "cluster_id": 2,
+    "n_tracks": 19,
+    "hook_time_mean": 8.87,
+    "hook_time_std": 6.407,
+    "skip_risk_mean": 0.1729,
+    "skip_risk_std": 0.145
+  },
+  "3": {
+    "cluster_id": 3,
+    "n_tracks": 13,
+    "hook_time_mean": 7.132,
+    "hook_time_std": 2.438,
+    "skip_risk_mean": 0.1063,
+    "skip_risk_std": 0.079
+  },
+  "4": {
+    "cluster_id": 4,
+    "n_tracks": 12,
+    "hook_time_mean": 7.517,
+    "hook_time_std": 2.299,
+    "skip_risk_mean": 0.1255,
+    "skip_risk_std": 0.0751
+  },
+  "5": {
+    "cluster_id": 5,
+    "n_tracks": 16,
+    "hook_time_mean": 6.584,
+    "hook_time_std": 2.752,
+    "skip_risk_mean": 0.1121,
+    "skip_risk_std": 0.0825
+  },
+  "6": {
+    "cluster_id": 6,
+    "n_tracks": 11,
+    "hook_time_mean": 7.398,
+    "hook_time_std": 2.711,
+    "skip_risk_mean": 0.1137,
+    "skip_risk_std": 0.0816
+  },
+  "7": {
+    "cluster_id": 7,
+    "n_tracks": 12,
+    "hook_time_mean": 7.825,
+    "hook_time_std": 4.952,
+    "skip_risk_mean": 0.0913,
+    "skip_risk_std": 0.0578
+  },
+  "8": {
+    "cluster_id": 8,
+    "n_tracks": 17,
+    "hook_time_mean": 7.54,
+    "hook_time_std": 3.064,
+    "skip_risk_mean": 0.1418,
+    "skip_risk_std": 0.1319
+  },
+  "9": {
+    "cluster_id": 9,
+    "n_tracks": 18,
+    "hook_time_mean": 8.322,
+    "hook_time_std": 3.782,
+    "skip_risk_mean": 0.1654,
+    "skip_risk_std": 0.1674
+  },
+  "10": {
+    "cluster_id": 10,
+    "n_tracks": 13,
+    "hook_time_mean": 10.335,
+    "hook_time_std": 5.285,
+    "skip_risk_mean": 0.1315,
+    "skip_risk_std": 0.0697
+  },
+  "11": {
+    "cluster_id": 11,
+    "n_tracks": 20,
+    "hook_time_mean": 6.879,
+    "hook_time_std": 2.903,
+    "skip_risk_mean": 0.1147,
+    "skip_risk_std": 0.1123
+  }
+}

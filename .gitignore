@@ -1,0 +1,29 @@
+# Environments
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Build / Temp / Logs
+*.log
+tmp/
+temp/
+colab_bundle.zip
+
+# Prevent massive files from blocking Git uploads
+*.mp3
+*.wav
+*.flac
+*.mp4
+*.m4a
+*.DS_Store

@@ -1,0 +1,2290 @@
+[
+  {
+    "name": "New Rules",
+    "artist": "Dua Lipa",
+    "track_id": "2ekn2ttSfGqwhhate0LSR0",
+    "quality_score": 80.0,
+    "signals": {
+      "energy": 98.009384698697,
+      "danceability": 28.283858027917173,
+      "valence": 87.40401080957274,
+      "tempo": 100.0,
+      "skip_inv": 12.720962011942532
+    }
+  },
+  {
+    "name": "ocean eyes",
+    "artist": "Billie Eilish",
+    "track_id": "2uIX8YMNjGMD7441kqyyNU",
+    "quality_score": 80.0,
+    "signals": {
+      "energy": 92.06957005545468,
+      "danceability": 21.137998117132394,
+      "valence": 86.67995776310131,
+      "tempo": 100.0,
+      "skip_inv": 6.179352344383446
+    }
+  },
+  {
+    "name": "My Way",
+    "artist": "USHER",
+    "track_id": "5PIveStlGgjVL54GpVcqxr",
+    "quality_score": 49.6,
+    "signals": {
+      "energy": 57.004738496850784,
+      "danceability": 20.703601743347274,
+      "valence": 71.64799539267315,
+      "tempo": 100.0,
+      "skip_inv": 2.1105599265368653
+    }
+  },
+  {
+    "name": "House of the Rising Sun - Rerecorded",
+    "artist": "The Animals",
+    "track_id": "6YOzorSue4rth45mFIc32r",
+    "quality_score": 58.3,
+    "signals": {
+      "energy": 94.2739205857208,
+      "danceability": 23.932064550742826,
+      "valence": 73.99194705373131,
+      "tempo": 100.0,
+      "skip_inv": 7.077824213488597
+    }
+  },
+  {
+    "name": "Viral Moment",
+    "artist": "Lil Durk",
+    "track_id": "7LFe3zbZmZ8dEDBd6oIKkl",
+    "quality_score": 52.0,
+    "signals": {
+      "energy": 73.09916636069363,
+      "danceability": 20.092334390673066,
+      "valence": 68.87260810023048,
+      "tempo": 100.0,
+      "skip_inv": 3.4314048260139884
+    }
+  },
+  {
+    "name": "Peaches & Cream",
+    "artist": "112",
+    "track_id": "2SLZ2rX5773RS16mcqBxG7",
+    "quality_score": 57.4,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 20.907426068253155,
+      "valence": 69.14639135946544,
+      "tempo": 100.0,
+      "skip_inv": 7.461102438304408
+    }
+  },
+  {
+    "name": "9",
+    "artist": "Drake",
+    "track_id": "1C7KSXR2GVxknex6I4ANco",
+    "quality_score": 55.2,
+    "signals": {
+      "energy": 60.39859083402634,
+      "danceability": 40.0,
+      "valence": 76.39530896193679,
+      "tempo": 75.0,
+      "skip_inv": 2.5892013764037927
+    }
+  },
+  {
+    "name": "Absolution",
+    "artist": "RJ Jen",
+    "track_id": "7fhCOqkke7rO5gSYHwWjwa",
+    "quality_score": 55.0,
+    "signals": {
+      "energy": 67.25508237917812,
+      "danceability": 40.0,
+      "valence": 56.603544503256046,
+      "tempo": 75.0,
+      "skip_inv": 3.110389609903848
+    }
+  },
+  {
+    "name": "Viral",
+    "artist": "Origami Angel",
+    "track_id": "0OCMecwvr1aBI2usN1LuHp",
+    "quality_score": 48.8,
+    "signals": {
+      "energy": 58.52369513658249,
+      "danceability": 20.098136731197755,
+      "valence": 64.52474285287748,
+      "tempo": 100.0,
+      "skip_inv": 1.766599755636932
+    }
+  },
+  {
+    "name": "KAYKAY",
+    "artist": "Era7capone",
+    "track_id": "6rRlb4jHYWovtdI4PJnr5q",
+    "quality_score": 46.7,
+    "signals": {
+      "energy": 42.36628794210567,
+      "danceability": 22.47847457342338,
+      "valence": 63.76002557686599,
+      "tempo": 100.0,
+      "skip_inv": 0.26858750922758645
+    }
+  },
+  {
+    "name": "Not You Too (feat. Chris Brown)",
+    "artist": "Drake",
+    "track_id": "3Q4gttWQ6hxqWOa3tHoTNi",
+    "quality_score": 54.0,
+    "signals": {
+      "energy": 57.39180508757149,
+      "danceability": 40.0,
+      "valence": 59.386256878965796,
+      "tempo": 100.0,
+      "skip_inv": 0.20493164320605217
+    }
+  },
+  {
+    "name": "Timeless (feat Playboi Carti)",
+    "artist": "The Weeknd",
+    "track_id": "0FIDCNYYjNvPVimz5icugS",
+    "quality_score": 59.1,
+    "signals": {
+      "energy": 70.71403261677929,
+      "danceability": 40.0,
+      "valence": 80.39705750070237,
+      "tempo": 100.0,
+      "skip_inv": 19.64805658121793
+    }
+  },
+  {
+    "name": "N 2 Deep",
+    "artist": "Drake",
+    "track_id": "34D6FJysnQioVingDKufuf",
+    "quality_score": 65.1,
+    "signals": {
+      "energy": 70.68517723745691,
+      "danceability": 60.0,
+      "valence": 83.66608187432462,
+      "tempo": 100.0,
+      "skip_inv": 21.1501664490292
+    }
+  },
+  {
+    "name": "23",
+    "artist": "Mike WiLL Made-It",
+    "track_id": "20FZrLl9zSbO9b3DhaqO6M",
+    "quality_score": 56.3,
+    "signals": {
+      "energy": 56.6353950971706,
+      "danceability": 40.0,
+      "valence": 66.94435458552115,
+      "tempo": 100.0,
+      "skip_inv": 1.7745760414685066
+    }
+  },
+  {
+    "name": "Burg Baby",
+    "artist": "Phill",
+    "track_id": "69SGg3EDPAGnZzKvDIPVSf",
+    "quality_score": 56.3,
+    "signals": {
+      "energy": 83.56923563224228,
+      "danceability": 26.022934085694267,
+      "valence": 65.43018519085223,
+      "tempo": 100.0,
+      "skip_inv": 1.6801882681159128
+    }
+  },
+  {
+    "name": "Style",
+    "artist": "Taylor Swift",
+    "track_id": "4lIxdJw6W3Fg4vUIYCB0S5",
+    "quality_score": 58.8,
+    "signals": {
+      "energy": 85.26607541060089,
+      "danceability": 40.0,
+      "valence": 62.44991457250362,
+      "tempo": 100.0,
+      "skip_inv": 11.306906652376654
+    }
+  },
+  {
+    "name": "Into You",
+    "artist": "Ariana Grande",
+    "track_id": "63y6xWR4gXz7bnUGOk8iI6",
+    "quality_score": 50.9,
+    "signals": {
+      "energy": 53.44194638440068,
+      "danceability": 40.0,
+      "valence": 70.72872700995438,
+      "tempo": 75.0,
+      "skip_inv": 1.0954701057035834
+    }
+  },
+  {
+    "name": "WILDFLOWER",
+    "artist": "Billie Eilish",
+    "track_id": "3QaPy1KgI7nu9FJEQUgn6h",
+    "quality_score": 52.0,
+    "signals": {
+      "energy": 61.67791489013416,
+      "danceability": 24.799698876913503,
+      "valence": 70.19841098687613,
+      "tempo": 100.0,
+      "skip_inv": 3.8573589936556516
+    }
+  },
+  {
+    "name": "Love Me Harder",
+    "artist": "Ariana Grande",
+    "track_id": "5J4ZkQpzMUFojo1CtAZYpn",
+    "quality_score": 71.8,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 60.0,
+      "valence": 72.08139325991928,
+      "tempo": 100.0,
+      "skip_inv": 4.874638904800037
+    }
+  },
+  {
+    "name": "Viral Moment",
+    "artist": "Lil Durk",
+    "track_id": "3q3ene9MGUbx02i0QP3iIG",
+    "quality_score": 62.9,
+    "signals": {
+      "energy": 67.86072329684768,
+      "danceability": 60.0,
+      "valence": 89.86694121879475,
+      "tempo": 75.0,
+      "skip_inv": 7.250653464818512
+    }
+  },
+  {
+    "name": "when the party's over",
+    "artist": "Billie Eilish",
+    "track_id": "43zdsphuZLzwA9k4DJhU0I",
+    "quality_score": 60.3,
+    "signals": {
+      "energy": 71.75608320232827,
+      "danceability": 40.0,
+      "valence": 82.3595273519468,
+      "tempo": 100.0,
+      "skip_inv": 20.979162299654064
+    }
+  },
+  {
+    "name": "Gang Baby",
+    "artist": "NLE Choppa",
+    "track_id": "6ynAqu8LYJylNQCJZciIVz",
+    "quality_score": 53.9,
+    "signals": {
+      "energy": 49.109877125321844,
+      "danceability": 40.0,
+      "valence": 63.78546631892935,
+      "tempo": 100.0,
+      "skip_inv": 0.7756695300082441
+    }
+  },
+  {
+    "name": "DONT WANT IT",
+    "artist": "Lil Nas X",
+    "track_id": "4vsJWPwWPS27gRM4oLjBNO",
+    "quality_score": 54.3,
+    "signals": {
+      "energy": 48.633685892730064,
+      "danceability": 40.0,
+      "valence": 59.028324074063946,
+      "tempo": 100.0,
+      "skip_inv": 10.74390833251094
+    }
+  },
+  {
+    "name": "Marvins Room",
+    "artist": "Drake",
+    "track_id": "047fCsbO4NdmwCBn8pcUXl",
+    "quality_score": 58.4,
+    "signals": {
+      "energy": 78.63080782463373,
+      "danceability": 27.20054835768099,
+      "valence": 88.84402139482431,
+      "tempo": 100.0,
+      "skip_inv": 5.86941799402976
+    }
+  },
+  {
+    "name": "Congratulations",
+    "artist": "Post Malone",
+    "track_id": "3a1lNhkSLSkpJE4MSHpDu9",
+    "quality_score": 80.0,
+    "signals": {
+      "energy": 39.30589812360351,
+      "danceability": 60.0,
+      "valence": 77.70857011163713,
+      "tempo": 100.0,
+      "skip_inv": 2.1087958089679404
+    }
+  },
+  {
+    "name": "Headlines",
+    "artist": "Drake",
+    "track_id": "6LxSe8YmdPxy095Ux6znaQ",
+    "quality_score": 47.2,
+    "signals": {
+      "energy": 44.303567032620286,
+      "danceability": 23.722733815853147,
+      "valence": 61.155525502361584,
+      "tempo": 100.0,
+      "skip_inv": 5.384678588707288
+    }
+  },
+  {
+    "name": "Earned It (Fifty Shades Of Grey)",
+    "artist": "The Weeknd",
+    "track_id": "4frLb7nWtsz2ymBE6k2GRP",
+    "quality_score": 59.3,
+    "signals": {
+      "energy": 85.93419978738544,
+      "danceability": 40.0,
+      "valence": 69.2972351430293,
+      "tempo": 100.0,
+      "skip_inv": 10.969999802463974
+    }
+  },
+  {
+    "name": "One Dance",
+    "artist": "Drake",
+    "track_id": "1zi7xx7UVEFkmKfv06H8x0",
+    "quality_score": 87.0,
+    "signals": {
+      "energy": 91.28924013309906,
+      "danceability": 60.0,
+      "valence": 73.35000780254765,
+      "tempo": 100.0,
+      "skip_inv": 21.498957538242138
+    }
+  },
+  {
+    "name": "Don't Be Scurred",
+    "artist": "SeeSings",
+    "track_id": "0damSrdQUu9J4YNP3N6xZ2",
+    "quality_score": 57.5,
+    "signals": {
+      "energy": 95.30697718289115,
+      "danceability": 22.783362709580018,
+      "valence": 69.84331019111013,
+      "tempo": 100.0,
+      "skip_inv": 5.031149659009614
+    }
+  },
+  {
+    "name": "2022 Hit Songs Music Mix",
+    "artist": "Popular Songs",
+    "track_id": "4Jseodk8NE3pyVnFfxPPKL",
+    "quality_score": 64.0,
+    "signals": {
+      "energy": 78.7467715809742,
+      "danceability": 60.0,
+      "valence": 56.76020958477915,
+      "tempo": 100.0,
+      "skip_inv": 4.712163873083256
+    }
+  },
+  {
+    "name": "Fancy",
+    "artist": "Drake",
+    "track_id": "3fpTMuD1u3gJlVI4FadVHs",
+    "quality_score": 52.2,
+    "signals": {
+      "energy": 55.13452848479018,
+      "danceability": 29.524612156529084,
+      "valence": 65.0401195028434,
+      "tempo": 100.0,
+      "skip_inv": 10.392795080824925
+    }
+  },
+  {
+    "name": "Kiss Me",
+    "artist": "Ed Sheeran",
+    "track_id": "0Tel1fmuCxEFV6wBLXsEdk",
+    "quality_score": 59.7,
+    "signals": {
+      "energy": 96.27625182013703,
+      "danceability": 26.691970691937136,
+      "valence": 71.55787723111565,
+      "tempo": 100.0,
+      "skip_inv": 6.929124362730747
+    }
+  },
+  {
+    "name": "White Iverson",
+    "artist": "Post Malone",
+    "track_id": "6eT7xZZlB2mwyzJ2sUKG6w",
+    "quality_score": 58.8,
+    "signals": {
+      "energy": 90.2326900453072,
+      "danceability": 40.0,
+      "valence": 57.16999718853401,
+      "tempo": 100.0,
+      "skip_inv": 17.175789717893934
+    }
+  },
+  {
+    "name": "American Girls",
+    "artist": "Harry Styles",
+    "track_id": "7gtG45ieyQzKtNKobfLd49",
+    "quality_score": 58.9,
+    "signals": {
+      "energy": 67.72279433844488,
+      "danceability": 40.0,
+      "valence": 74.31562509685085,
+      "tempo": 100.0,
+      "skip_inv": 2.691730172844416
+    }
+  },
+  {
+    "name": "CHIHIRO",
+    "artist": "Billie Eilish",
+    "track_id": "7BRD7x5pt8Lqa1eGYC4dzj",
+    "quality_score": 51.4,
+    "signals": {
+      "energy": 52.63991182600543,
+      "danceability": 28.674183309964025,
+      "valence": 65.56570405282406,
+      "tempo": 100.0,
+      "skip_inv": 12.861068760758016
+    }
+  },
+  {
+    "name": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "track_id": "6UelLqGlWMcVH1E5c4H7lY",
+    "quality_score": 88.0,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 26.954651830557694,
+      "valence": 78.54363252858151,
+      "tempo": 100.0,
+      "skip_inv": 8.117792778516346
+    }
+  },
+  {
+    "name": "I Know You Want Me (Calle Ocho)",
+    "artist": "Pitbull",
+    "track_id": "5RzFJd6W40SDTyZkX6xx45",
+    "quality_score": 84.0,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 40.0,
+      "valence": 70.22378445359644,
+      "tempo": 75.0,
+      "skip_inv": 15.067684074170757
+    }
+  },
+  {
+    "name": "Total Eclipse of the Heart - Dance Version",
+    "artist": "Nicki French",
+    "track_id": "7bN89iVpVpa8jCGh9BqLju",
+    "quality_score": 66.8,
+    "signals": {
+      "energy": 76.62268272768662,
+      "danceability": 60.0,
+      "valence": 86.79415398871647,
+      "tempo": 100.0,
+      "skip_inv": 6.964958021900799
+    }
+  },
+  {
+    "name": "Call Out My Name",
+    "artist": "The Weeknd",
+    "track_id": "09mEdoA6zrmBPgTEN5qXmN",
+    "quality_score": 56.8,
+    "signals": {
+      "energy": 40.585593348933735,
+      "danceability": 60.0,
+      "valence": 65.649484858538,
+      "tempo": 100.0,
+      "skip_inv": 13.306834920330218
+    }
+  },
+  {
+    "name": "Dua Lipa",
+    "artist": "Jack Harlow",
+    "track_id": "0LnS7aOdOdI1dNKZqdOLz4",
+    "quality_score": 75.0,
+    "signals": {
+      "energy": 49.07793791440695,
+      "danceability": 60.0,
+      "valence": 57.91155295573043,
+      "tempo": 100.0,
+      "skip_inv": 0.26862677241466315
+    }
+  },
+  {
+    "name": "Houdini",
+    "artist": "Dua Lipa",
+    "track_id": "6D8y7Bck8h11byRY88Pt2z",
+    "quality_score": 54.3,
+    "signals": {
+      "energy": 78.63616860599143,
+      "danceability": 25.24070855469973,
+      "valence": 59.35791859655728,
+      "tempo": 100.0,
+      "skip_inv": 0.2064344020486999
+    }
+  },
+  {
+    "name": "Billboard Dreams",
+    "artist": "Kiremi",
+    "track_id": "1nPoBr8PuM1Llme2OJ1Hrl",
+    "quality_score": 52.2,
+    "signals": {
+      "energy": 59.82235957308692,
+      "danceability": 20.867796980808293,
+      "valence": 90.23521593129914,
+      "tempo": 100.0,
+      "skip_inv": 8.635660688465194
+    }
+  },
+  {
+    "name": "Don\u2019t hide",
+    "artist": "So Supa",
+    "track_id": "6yJIO8264hq1hCbBLU0C0X",
+    "quality_score": 58.1,
+    "signals": {
+      "energy": 71.33734158616453,
+      "danceability": 40.0,
+      "valence": 81.79491192084907,
+      "tempo": 100.0,
+      "skip_inv": 15.70020002624446
+    }
+  },
+  {
+    "name": "Love Me",
+    "artist": "Lil Wayne",
+    "track_id": "2XHzzp1j4IfTNp1FTn7YFg",
+    "quality_score": 60.9,
+    "signals": {
+      "energy": 50.60401482576959,
+      "danceability": 60.0,
+      "valence": 73.72196968470911,
+      "tempo": 100.0,
+      "skip_inv": 2.1299356249718073
+    }
+  },
+  {
+    "name": "Photograph",
+    "artist": "Ed Sheeran",
+    "track_id": "1HNkqx9Ahdgi1Ixy2xkKkL",
+    "quality_score": 63.0,
+    "signals": {
+      "energy": 61.37752824037341,
+      "danceability": 60.0,
+      "valence": 81.37589659760079,
+      "tempo": 100.0,
+      "skip_inv": 19.259978113573126
+    }
+  },
+  {
+    "name": "Bad Habits",
+    "artist": "Ed Sheeran",
+    "track_id": "3rmo8F54jFF8OgYsqTxm5d",
+    "quality_score": 57.8,
+    "signals": {
+      "energy": 62.76053050205612,
+      "danceability": 40.0,
+      "valence": 91.16123693085324,
+      "tempo": 100.0,
+      "skip_inv": 15.556837060033942
+    }
+  },
+  {
+    "name": "The Hills",
+    "artist": "The Weeknd",
+    "track_id": "7fBv7CLKzipRk6EC6TWHOB",
+    "quality_score": 51.9,
+    "signals": {
+      "energy": 40.90502637372285,
+      "danceability": 40.0,
+      "valence": 68.39635437167368,
+      "tempo": 100.0,
+      "skip_inv": 8.326883530008232
+    }
+  },
+  {
+    "name": "I Took A Pill In Ibiza - Seeb Remix",
+    "artist": "Mike Posner",
+    "track_id": "0vbtURX4qv1l7besfwmnD8",
+    "quality_score": 79.0,
+    "signals": {
+      "energy": 99.05738665465489,
+      "danceability": 40.0,
+      "valence": 78.11533388072547,
+      "tempo": 100.0,
+      "skip_inv": 12.056481506223776
+    }
+  },
+  {
+    "name": "Pop",
+    "artist": "Harry Styles",
+    "track_id": "028i7HBfp8uE5epmx5ieMA",
+    "quality_score": 63.8,
+    "signals": {
+      "energy": 67.73090087940058,
+      "danceability": 60.0,
+      "valence": 61.81695316758196,
+      "tempo": 100.0,
+      "skip_inv": 0.5326972563860437
+    }
+  },
+  {
+    "name": "lovely (with Khalid)",
+    "artist": "Billie Eilish",
+    "track_id": "0u2P5u6lvoDfwTYjAADbn4",
+    "quality_score": 81.0,
+    "signals": {
+      "energy": 39.5497222540662,
+      "danceability": 40.0,
+      "valence": 60.15237369113782,
+      "tempo": 100.0,
+      "skip_inv": 8.108422640390913
+    }
+  },
+  {
+    "name": "Hits Different",
+    "artist": "Taylor Swift",
+    "track_id": "2BPLFluGLtHPN9EF6oK5w8",
+    "quality_score": 49.9,
+    "signals": {
+      "energy": 57.49057670930206,
+      "danceability": 22.717385963838417,
+      "valence": 66.58901200325725,
+      "tempo": 100.0,
+      "skip_inv": 2.258926747930019
+    }
+  },
+  {
+    "name": "Hits Different",
+    "artist": "Taylor Swift",
+    "track_id": "3xYJScVfxByb61dYHTwiby",
+    "quality_score": 56.0,
+    "signals": {
+      "energy": 52.18379078828008,
+      "danceability": 40.0,
+      "valence": 70.67367983465456,
+      "tempo": 100.0,
+      "skip_inv": 1.4556931987865056
+    }
+  },
+  {
+    "name": "Hip Hop",
+    "artist": "Trinix Remix",
+    "track_id": "6EuhBJTydNXXtqBQ32lag5",
+    "quality_score": 68.5,
+    "signals": {
+      "energy": 98.00429374513277,
+      "danceability": 40.0,
+      "valence": 82.46547955458658,
+      "tempo": 100.0,
+      "skip_inv": 22.622960048525513
+    }
+  },
+  {
+    "name": "Patoreakcja",
+    "artist": "Mata",
+    "track_id": "0IPJBx1bjznqjdYBXj3l19",
+    "quality_score": 54.0,
+    "signals": {
+      "energy": 59.40436966045001,
+      "danceability": 40.0,
+      "valence": 63.5090133457132,
+      "tempo": 75.0,
+      "skip_inv": 1.989388908086866
+    }
+  },
+  {
+    "name": "Lucky You (feat. Joyner Lucas)",
+    "artist": "Eminem",
+    "track_id": "60SdxE8apGAxMiRrpbmLY0",
+    "quality_score": 47.6,
+    "signals": {
+      "energy": 40.03201867563847,
+      "danceability": 18.596192868796166,
+      "valence": 89.45602497216538,
+      "tempo": 100.0,
+      "skip_inv": 8.640988718484152
+    }
+  },
+  {
+    "name": "If You Love Her",
+    "artist": "Forest Blakk",
+    "track_id": "727Z2S2mtNH46CbP9EWPwY",
+    "quality_score": 66.2,
+    "signals": {
+      "energy": 86.78863573613225,
+      "danceability": 40.0,
+      "valence": 89.32185431233844,
+      "tempo": 100.0,
+      "skip_inv": 13.938871170671277
+    }
+  },
+  {
+    "name": "2020 (Outro)",
+    "artist": "seirbwi",
+    "track_id": "56JqTaQqydg7WtOu2QYInN",
+    "quality_score": 73.7,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 60.0,
+      "valence": 88.09360029616953,
+      "tempo": 100.0,
+      "skip_inv": 19.06261078133697
+    }
+  },
+  {
+    "name": "2020 (Outro)",
+    "artist": "seirbwi",
+    "track_id": "0CdzbtQ0Y3zAdgHknT9vyM",
+    "quality_score": 58.2,
+    "signals": {
+      "energy": 87.05767186392934,
+      "danceability": 28.456655382246375,
+      "valence": 66.54871676508714,
+      "tempo": 100.0,
+      "skip_inv": 17.7445139505044
+    }
+  },
+  {
+    "name": "Blank Space",
+    "artist": "Taylor Swift",
+    "track_id": "1p80LdxRV74UKvL8gnD7ky",
+    "quality_score": 82.0,
+    "signals": {
+      "energy": 77.97808056888584,
+      "danceability": 40.0,
+      "valence": 74.40508634866268,
+      "tempo": 100.0,
+      "skip_inv": 5.756366806194023
+    }
+  },
+  {
+    "name": "Cold Heart - PNAU Remix",
+    "artist": "Elton John",
+    "track_id": "6zSpb8dQRaw0M1dK8PBwQz",
+    "quality_score": 75.0,
+    "signals": {
+      "energy": 95.4645526934852,
+      "danceability": 18.149798450509632,
+      "valence": 72.30620777508841,
+      "tempo": 100.0,
+      "skip_inv": 6.029161427465056
+    }
+  },
+  {
+    "name": "The Girl On The Billboard",
+    "artist": "Del Reeves",
+    "track_id": "3T4zow8ial809ciFETZ6wM",
+    "quality_score": 53.3,
+    "signals": {
+      "energy": 90.48505026026132,
+      "danceability": 18.454143972118125,
+      "valence": 59.15868348574652,
+      "tempo": 100.0,
+      "skip_inv": 4.888865845729612
+    }
+  },
+  {
+    "name": "The Fate of Ophelia",
+    "artist": "Taylor Swift",
+    "track_id": "53iuhJlwXhSER5J2IYYv1W",
+    "quality_score": 68.1,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 40.0,
+      "valence": 79.40152165062239,
+      "tempo": 100.0,
+      "skip_inv": 24.97256354352433
+    }
+  },
+  {
+    "name": "Throwback (feat. Jadakiss)",
+    "artist": "USHER",
+    "track_id": "1bPbiotvwSAYHG3ycVC2CV",
+    "quality_score": 59.9,
+    "signals": {
+      "energy": 93.3708098477606,
+      "danceability": 27.48337923395286,
+      "valence": 75.01601917127653,
+      "tempo": 100.0,
+      "skip_inv": 4.066025104708871
+    }
+  },
+  {
+    "name": "Shivers",
+    "artist": "Ed Sheeran",
+    "track_id": "50nfwKoDiSYg8zOCREWAm5",
+    "quality_score": 46.4,
+    "signals": {
+      "energy": 48.2985628626765,
+      "danceability": 21.491126415775927,
+      "valence": 82.20847953841162,
+      "tempo": 75.0,
+      "skip_inv": 0.5784093975088354
+    }
+  },
+  {
+    "name": "Wicked Games",
+    "artist": "The Weeknd",
+    "track_id": "249E7AgSyA4vhtXNEjQYb5",
+    "quality_score": 55.5,
+    "signals": {
+      "energy": 65.52512842060013,
+      "danceability": 40.0,
+      "valence": 57.40807055343015,
+      "tempo": 100.0,
+      "skip_inv": 7.236769151447049
+    }
+  },
+  {
+    "name": "Thinking out Loud",
+    "artist": "Ed Sheeran",
+    "track_id": "34gCuhDGsG4bRPIf9bb02f",
+    "quality_score": 77.0,
+    "signals": {
+      "energy": 64.86227180940493,
+      "danceability": 60.0,
+      "valence": 81.17010399020884,
+      "tempo": 100.0,
+      "skip_inv": 4.776954609308532
+    }
+  },
+  {
+    "name": "Shape of You",
+    "artist": "Ed Sheeran",
+    "track_id": "7qiZfU4dY1lWllzX7mPBI3",
+    "quality_score": 93.0,
+    "signals": {
+      "energy": 43.92398553123009,
+      "danceability": 21.032858589477538,
+      "valence": 71.32777248706655,
+      "tempo": 100.0,
+      "skip_inv": 5.199132557481249
+    }
+  },
+  {
+    "name": "Little Red Corvette",
+    "artist": "Prince",
+    "track_id": "3kLwXHrFwp5Eswro4oIj5H",
+    "quality_score": 64.8,
+    "signals": {
+      "energy": 69.17355152657056,
+      "danceability": 60.0,
+      "valence": 63.396083514991986,
+      "tempo": 100.0,
+      "skip_inv": 4.197662068742119
+    }
+  },
+  {
+    "name": "Breathe - Recorded At Spotify Studios Stockholm",
+    "artist": "Seinabo Sey",
+    "track_id": "7nmA2R4IQSfZpMYFhXY9r7",
+    "quality_score": 58.5,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 18.82486231825489,
+      "valence": 87.7988630148385,
+      "tempo": 100.0,
+      "skip_inv": 6.301588562726991
+    }
+  },
+  {
+    "name": "I Fall Apart",
+    "artist": "Post Malone",
+    "track_id": "75ZvA4QfFiZvzhj2xkaWAh",
+    "quality_score": 52.2,
+    "signals": {
+      "energy": 62.203950873215966,
+      "danceability": 24.39766024547308,
+      "valence": 72.40764084026591,
+      "tempo": 100.0,
+      "skip_inv": 0.6793977414860137
+    }
+  },
+  {
+    "name": "As It Was",
+    "artist": "Harry Styles",
+    "track_id": "4Dvkj6JhhA12EX05fT7y2e",
+    "quality_score": 91.0,
+    "signals": {
+      "energy": 58.50161957632053,
+      "danceability": 40.0,
+      "valence": 64.17311136699706,
+      "tempo": 100.0,
+      "skip_inv": 13.015378322013333
+    }
+  },
+  {
+    "name": "BIRDS OF A FEATHER",
+    "artist": "Billie Eilish",
+    "track_id": "6dOtVTDdiauQNBQEDOtlAB",
+    "quality_score": 52.6,
+    "signals": {
+      "energy": 55.75044410542481,
+      "danceability": 24.022878641030363,
+      "valence": 88.27508147321751,
+      "tempo": 100.0,
+      "skip_inv": 11.05386132279898
+    }
+  },
+  {
+    "name": "YUKON",
+    "artist": "Justin Bieber",
+    "track_id": "29iva9idM6rFCPUlu7Rhxl",
+    "quality_score": 65.2,
+    "signals": {
+      "energy": 78.3420026229498,
+      "danceability": 60.0,
+      "valence": 71.2560227692195,
+      "tempo": 100.0,
+      "skip_inv": 4.350939016062256
+    }
+  },
+  {
+    "name": "You Belong With Me",
+    "artist": "Taylor Swift",
+    "track_id": "1GEBsLDvJGw7kviySRI6GX",
+    "quality_score": 64.2,
+    "signals": {
+      "energy": 62.35436686839217,
+      "danceability": 60.0,
+      "valence": 74.94935691739539,
+      "tempo": 100.0,
+      "skip_inv": 4.030048989749432
+    }
+  },
+  {
+    "name": "bad guy",
+    "artist": "Billie Eilish",
+    "track_id": "2Fxmhks0bxGSBdJ92vM42m",
+    "quality_score": 93.0,
+    "signals": {
+      "energy": 74.23012322591813,
+      "danceability": 60.0,
+      "valence": 61.013647383532984,
+      "tempo": 100.0,
+      "skip_inv": 23.462530562227613
+    }
+  },
+  {
+    "name": "Love Yourself",
+    "artist": "Justin Bieber",
+    "track_id": "50kpGaPAhYJ3sGmk6vplg0",
+    "quality_score": 77.0,
+    "signals": {
+      "energy": 43.97642924802853,
+      "danceability": 21.90453526185157,
+      "valence": 84.97838087424157,
+      "tempo": 100.0,
+      "skip_inv": 5.918186744316856
+    }
+  },
+  {
+    "name": "Just Dance",
+    "artist": "Lady Gaga",
+    "track_id": "2x7MyWybabEz6Y6wvHuwGE",
+    "quality_score": 86.0,
+    "signals": {
+      "energy": 77.52582681187106,
+      "danceability": 60.0,
+      "valence": 60.382544522953836,
+      "tempo": 75.0,
+      "skip_inv": 8.340070992360737
+    }
+  },
+  {
+    "name": "The Resistance",
+    "artist": "Drake",
+    "track_id": "0llA0pYA6GpGk7fTjew0wO",
+    "quality_score": 60.1,
+    "signals": {
+      "energy": 79.21014219958512,
+      "danceability": 40.0,
+      "valence": 67.55623368491106,
+      "tempo": 100.0,
+      "skip_inv": 0.515666609440288
+    }
+  },
+  {
+    "name": "Gl\u00f6d",
+    "artist": "The Grammy Winners",
+    "track_id": "37tjFwdAQvTsd8arlfQtUx",
+    "quality_score": 62.6,
+    "signals": {
+      "energy": 83.50827063253254,
+      "danceability": 40.0,
+      "valence": 79.10461582274391,
+      "tempo": 100.0,
+      "skip_inv": 3.74087416738422
+    }
+  },
+  {
+    "name": "Opalite",
+    "artist": "Taylor Swift",
+    "track_id": "3yWuTOYDztXjZxdE2cIRUa",
+    "quality_score": 64.8,
+    "signals": {
+      "energy": 89.75685073706778,
+      "danceability": 40.0,
+      "valence": 74.851720088637,
+      "tempo": 100.0,
+      "skip_inv": 26.08406261588773
+    }
+  },
+  {
+    "name": "Dark Nights - remix",
+    "artist": "Kocky Ka",
+    "track_id": "05mU8pZ5AIaxyC45dteVyv",
+    "quality_score": 57.6,
+    "signals": {
+      "energy": 67.84640627159723,
+      "danceability": 40.0,
+      "valence": 65.28267311056658,
+      "tempo": 100.0,
+      "skip_inv": 1.847545248075889
+    }
+  },
+  {
+    "name": "No Lie",
+    "artist": "Sean Paul",
+    "track_id": "48QmG1dfvMuYLxMPt7KSRA",
+    "quality_score": 84.0,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 29.480632059053473,
+      "valence": 91.1748942031931,
+      "tempo": 100.0,
+      "skip_inv": 20.528478913202264
+    }
+  },
+  {
+    "name": "Wetter",
+    "artist": "Twista",
+    "track_id": "1RqV6dET5SZHKl8KbxnCtB",
+    "quality_score": 51.8,
+    "signals": {
+      "energy": 51.00969191178293,
+      "danceability": 28.58075873194684,
+      "valence": 72.82323308016365,
+      "tempo": 100.0,
+      "skip_inv": 9.086215762566425
+    }
+  },
+  {
+    "name": "Starboy",
+    "artist": "The Weeknd",
+    "track_id": "7MXVkk9YMctZqd1Srtv4MB",
+    "quality_score": 86.0,
+    "signals": {
+      "energy": 92.64485134536274,
+      "danceability": 23.55089799386956,
+      "valence": 75.72940373229605,
+      "tempo": 100.0,
+      "skip_inv": 2.8760479555286764
+    }
+  },
+  {
+    "name": "no tears left to cry",
+    "artist": "Ariana Grande",
+    "track_id": "2qT1uLXPVPzGgFOx4jtEuo",
+    "quality_score": 76.0,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 29.036526883952465,
+      "valence": 67.75221479269291,
+      "tempo": 75.0,
+      "skip_inv": 10.45763752944346
+    }
+  },
+  {
+    "name": "One Time",
+    "artist": "Justin Bieber",
+    "track_id": "6eDApnV9Jdb1nYahOlbbUh",
+    "quality_score": 60.9,
+    "signals": {
+      "energy": 52.92412027387263,
+      "danceability": 60.0,
+      "valence": 75.0008876795905,
+      "tempo": 100.0,
+      "skip_inv": 2.8127133610460504
+    }
+  },
+  {
+    "name": "7 rings",
+    "artist": "Ariana Grande",
+    "track_id": "6ocbgoVGwYJhOv1GgI9NsF",
+    "quality_score": 90.0,
+    "signals": {
+      "energy": 63.2554200463547,
+      "danceability": 60.0,
+      "valence": 57.47588943948266,
+      "tempo": 100.0,
+      "skip_inv": 3.371368353029297
+    }
+  },
+  {
+    "name": "Ghost",
+    "artist": "Justin Bieber",
+    "track_id": "6I3mqTwhRpn34SLVafSH7G",
+    "quality_score": 61.6,
+    "signals": {
+      "energy": 45.27813321227671,
+      "danceability": 60.0,
+      "valence": 86.40967700348727,
+      "tempo": 100.0,
+      "skip_inv": 2.999535986195653
+    }
+  },
+  {
+    "name": "You've Got Your Troubles - Rerecorded",
+    "artist": "The Fortunes",
+    "track_id": "7y7EMwoGn8kmOOwwSyW6Lr",
+    "quality_score": 60.9,
+    "signals": {
+      "energy": 55.50900343793463,
+      "danceability": 60.0,
+      "valence": 66.07535352379466,
+      "tempo": 100.0,
+      "skip_inv": 2.377378939519943
+    }
+  },
+  {
+    "name": "Shut It Down",
+    "artist": "Drake",
+    "track_id": "3d8PDk3B4am5c6TsUCznUW",
+    "quality_score": 55.3,
+    "signals": {
+      "energy": 77.3763284697427,
+      "danceability": 19.844644757160417,
+      "valence": 92.55276653758634,
+      "tempo": 100.0,
+      "skip_inv": 3.2898608556613596
+    }
+  },
+  {
+    "name": "Oh My God",
+    "artist": "Adele",
+    "track_id": "3Kkjo3cT83cw09VJyrLNwX",
+    "quality_score": 75.0,
+    "signals": {
+      "energy": 43.174143707074315,
+      "danceability": 21.7436873318359,
+      "valence": 77.9453018861071,
+      "tempo": 100.0,
+      "skip_inv": 7.607419344045496
+    }
+  },
+  {
+    "name": "Eld",
+    "artist": "The Grammy Winners",
+    "track_id": "0LmRq4hyj651tnBDgShbYt",
+    "quality_score": 59.2,
+    "signals": {
+      "energy": 64.48672794932331,
+      "danceability": 40.0,
+      "valence": 70.98492211062774,
+      "tempo": 100.0,
+      "skip_inv": 17.125270280973666
+    }
+  },
+  {
+    "name": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "track_id": "0V3wPSX9ygBnCm8psDIegu",
+    "quality_score": 76.0,
+    "signals": {
+      "energy": 51.85761543560768,
+      "danceability": 60.0,
+      "valence": 66.63618750166474,
+      "tempo": 100.0,
+      "skip_inv": 12.833781818638428
+    }
+  },
+  {
+    "name": "Dip (#thewoah)",
+    "artist": "TisaKorean",
+    "track_id": "1rcEtzR9Z07PvQBqUxhFcU",
+    "quality_score": 67.2,
+    "signals": {
+      "energy": 81.54677707237857,
+      "danceability": 60.0,
+      "valence": 74.10727075802909,
+      "tempo": 100.0,
+      "skip_inv": 26.080153078936036
+    }
+  },
+  {
+    "name": "we can't be friends (wait for your love)",
+    "artist": "Ariana Grande",
+    "track_id": "51ZQ1vr10ffzbwIjDCwqm4",
+    "quality_score": 56.9,
+    "signals": {
+      "energy": 62.410726747319835,
+      "danceability": 40.0,
+      "valence": 61.44645491896498,
+      "tempo": 100.0,
+      "skip_inv": 13.6563822789049
+    }
+  },
+  {
+    "name": "That Should Be Me",
+    "artist": "Justin Bieber",
+    "track_id": "0aPZbnkMoWJaJ5CNVLCj8S",
+    "quality_score": 52.5,
+    "signals": {
+      "energy": 65.43279851317202,
+      "danceability": 23.78267720788772,
+      "valence": 72.34757883078953,
+      "tempo": 100.0,
+      "skip_inv": 0.7800456835384182
+    }
+  },
+  {
+    "name": "What Was I Made For? [From The Motion Picture \"Barbie\"]",
+    "artist": "Billie Eilish",
+    "track_id": "6wf7Yu7cxBSPrRlWeSeK0Q",
+    "quality_score": 57.9,
+    "signals": {
+      "energy": 71.34946071653371,
+      "danceability": 40.0,
+      "valence": 84.31545487764342,
+      "tempo": 100.0,
+      "skip_inv": 9.636078032040814
+    }
+  },
+  {
+    "name": "Gonna Make You Sweat (Everybody Dance Now) (feat. Freedom Williams)",
+    "artist": "C & C Music Factory",
+    "track_id": "7eheoW4hxrH51ww2QePVwF",
+    "quality_score": 85.0,
+    "signals": {
+      "energy": 72.43499553074057,
+      "danceability": 18.376740675996015,
+      "valence": 58.035447720083894,
+      "tempo": 100.0,
+      "skip_inv": 4.272347421988854
+    }
+  },
+  {
+    "name": "Perfect",
+    "artist": "Ed Sheeran",
+    "track_id": "0tgVpDi06FyKpA1z0VMD4v",
+    "quality_score": 77.0,
+    "signals": {
+      "energy": 94.63831368399403,
+      "danceability": 40.0,
+      "valence": 73.29327162857874,
+      "tempo": 100.0,
+      "skip_inv": 6.233121552959275
+    }
+  },
+  {
+    "name": "Hip-Hop (feat. BigXthaPlug, Jay Jones)",
+    "artist": "Lil Wayne",
+    "track_id": "0t5LNjml8LTuAPiEfD7zFN",
+    "quality_score": 56.6,
+    "signals": {
+      "energy": 98.53948000334411,
+      "danceability": 23.579047896402354,
+      "valence": 80.13893664260542,
+      "tempo": 75.0,
+      "skip_inv": 8.131855808821271
+    }
+  },
+  {
+    "name": "thank u, next",
+    "artist": "Ariana Grande",
+    "track_id": "3e9HZxeyfWwjeyPAMmWSSQ",
+    "quality_score": 86.0,
+    "signals": {
+      "energy": 72.02238372597279,
+      "danceability": 23.714474905852995,
+      "valence": 72.30513919026187,
+      "tempo": 100.0,
+      "skip_inv": 1.1191159892934905
+    }
+  },
+  {
+    "name": "Electronic Performers",
+    "artist": "Air",
+    "track_id": "0C3vrVa4c8R2ZlTAn2WiMt",
+    "quality_score": 58.6,
+    "signals": {
+      "energy": 98.95385825699952,
+      "danceability": 24.10049666517341,
+      "valence": 68.11869656069766,
+      "tempo": 100.0,
+      "skip_inv": 3.0446856842938104
+    }
+  },
+  {
+    "name": "Aperture",
+    "artist": "Harry Styles",
+    "track_id": "45Z3m6yazmAi4jZuW0tzW0",
+    "quality_score": 60.0,
+    "signals": {
+      "energy": 91.6478523261157,
+      "danceability": 28.036442265439284,
+      "valence": 76.09281022448273,
+      "tempo": 100.0,
+      "skip_inv": 3.6299586846908625
+    }
+  },
+  {
+    "name": "Circles",
+    "artist": "Post Malone",
+    "track_id": "21jGcNKet2qwijlDFuPiPb",
+    "quality_score": 49.3,
+    "signals": {
+      "energy": 53.60723241660497,
+      "danceability": 20.69446072658929,
+      "valence": 75.05752558875065,
+      "tempo": 100.0,
+      "skip_inv": 0.4729148444336744
+    }
+  },
+  {
+    "name": "Hip Hop Hooray",
+    "artist": "Naughty By Nature",
+    "track_id": "1SyQ6t9RdRBK0QUCS6a797",
+    "quality_score": 78.0,
+    "signals": {
+      "energy": 70.56475083599376,
+      "danceability": 25.04669592991507,
+      "valence": 58.57199627854863,
+      "tempo": 100.0,
+      "skip_inv": 0.9956661062206678
+    }
+  },
+  {
+    "name": "Sugar",
+    "artist": "Flo Rida",
+    "track_id": "5aMXFJJSGkCGGfOwomAoPJ",
+    "quality_score": 76.0,
+    "signals": {
+      "energy": 87.65681456520534,
+      "danceability": 22.90125017831754,
+      "valence": 88.48406684186227,
+      "tempo": 100.0,
+      "skip_inv": 5.581145243118726
+    }
+  },
+  {
+    "name": "Electrified",
+    "artist": "TheFatRat",
+    "track_id": "6kqYPR6Aotq4QvoIgYKJoO",
+    "quality_score": 65.2,
+    "signals": {
+      "energy": 89.89471243855601,
+      "danceability": 40.0,
+      "valence": 76.22928409082877,
+      "tempo": 100.0,
+      "skip_inv": 6.491679485637874
+    }
+  },
+  {
+    "name": "Adore You",
+    "artist": "Harry Styles",
+    "track_id": "3jjujdWJ72nww5eGnfs2E7",
+    "quality_score": 63.0,
+    "signals": {
+      "energy": 98.1739681650393,
+      "danceability": 28.22683021553508,
+      "valence": 90.737423790976,
+      "tempo": 100.0,
+      "skip_inv": 9.992937495668457
+    }
+  },
+  {
+    "name": "Status - Solo OG Home Demo",
+    "artist": "Godfather Don",
+    "track_id": "5QPaIn9xZXsFPheGKkrnco",
+    "quality_score": 53.2,
+    "signals": {
+      "energy": 47.19163608390411,
+      "danceability": 40.0,
+      "valence": 79.66660207393112,
+      "tempo": 100.0,
+      "skip_inv": 9.01343781230355
+    }
+  },
+  {
+    "name": "Ready, Steady, Go!",
+    "artist": "Harry Styles",
+    "track_id": "0i4qKfuKJ3juUsEwnJAxk3",
+    "quality_score": 68.6,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 60.0,
+      "valence": 57.2943728153118,
+      "tempo": 75.0,
+      "skip_inv": 20.520013250605132
+    }
+  },
+  {
+    "name": "Sunflower - Spider-Man: Into the Spider-Verse",
+    "artist": "Post Malone",
+    "track_id": "0RiRZpuVRbi7oqRdSMwhQY",
+    "quality_score": 91.0,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 40.0,
+      "valence": 67.19657223626876,
+      "tempo": 100.0,
+      "skip_inv": 15.413103372126756
+    }
+  },
+  {
+    "name": "damn! (with Chad Kroeger) [Remix]",
+    "artist": "Jeris Johnson",
+    "track_id": "3IO95XfEPBkCYAxgCFREuK",
+    "quality_score": 59.3,
+    "signals": {
+      "energy": 47.251212774792286,
+      "danceability": 60.0,
+      "valence": 70.38527245684968,
+      "tempo": 100.0,
+      "skip_inv": 13.837056069638138
+    }
+  },
+  {
+    "name": "What Do You Mean?",
+    "artist": "Justin Bieber",
+    "track_id": "4B0JvthVoAAuygILe3n4Bs",
+    "quality_score": 58.6,
+    "signals": {
+      "energy": 78.92132595821094,
+      "danceability": 40.0,
+      "valence": 81.32694652109447,
+      "tempo": 75.0,
+      "skip_inv": 5.177586522292458
+    }
+  },
+  {
+    "name": "Electronic Circus Weapon",
+    "artist": "Dada Life",
+    "track_id": "4CBAKSus371zX1icqqyyUC",
+    "quality_score": 62.8,
+    "signals": {
+      "energy": 55.77710096641551,
+      "danceability": 60.0,
+      "valence": 86.77504649975917,
+      "tempo": 100.0,
+      "skip_inv": 4.639760523864638
+    }
+  },
+  {
+    "name": "Blinding Lights",
+    "artist": "The Weeknd",
+    "track_id": "0VjIjW4GlUZAMYd2vXMi3b",
+    "quality_score": 95.0,
+    "signals": {
+      "energy": 59.81011558067153,
+      "danceability": 40.0,
+      "valence": 71.32219427202044,
+      "tempo": 100.0,
+      "skip_inv": 12.920657670014862
+    }
+  },
+  {
+    "name": "RNB (feat. Megan Thee Stallion)",
+    "artist": "Young Dolph",
+    "track_id": "0hng8bySwA3wbhPNeSg7Mo",
+    "quality_score": 48.4,
+    "signals": {
+      "energy": 48.11108448778077,
+      "danceability": 23.608784189481923,
+      "valence": 65.88028492804885,
+      "tempo": 100.0,
+      "skip_inv": 7.400925581812203
+    }
+  },
+  {
+    "name": "The Party & The After Party",
+    "artist": "The Weeknd",
+    "track_id": "0GROiXm03OrMC5ltXLhGIu",
+    "quality_score": 53.9,
+    "signals": {
+      "energy": 47.38887657798687,
+      "danceability": 40.0,
+      "valence": 81.2047374802138,
+      "tempo": 100.0,
+      "skip_inv": 11.111480669151689
+    }
+  },
+  {
+    "name": "Transcendental Cha Cha Cha",
+    "artist": "Tom Cardy",
+    "track_id": "4Miyg4G2ZTjC6HC6WpUkmz",
+    "quality_score": 54.1,
+    "signals": {
+      "energy": 80.32772752530732,
+      "danceability": 23.774720209221357,
+      "valence": 60.88345138450951,
+      "tempo": 100.0,
+      "skip_inv": 1.27167935353539
+    }
+  },
+  {
+    "name": "Don't",
+    "artist": "Ed Sheeran",
+    "track_id": "1huvTbEYtgltjQRXzrNKGi",
+    "quality_score": 62.6,
+    "signals": {
+      "energy": 86.79096965845861,
+      "danceability": 40.0,
+      "valence": 68.86405495478732,
+      "tempo": 100.0,
+      "skip_inv": 16.52731906842996
+    }
+  },
+  {
+    "name": "Don't",
+    "artist": "Ed Sheeran",
+    "track_id": "6gTJaPuj8DT8RjuDJyBgzP",
+    "quality_score": 56.4,
+    "signals": {
+      "energy": 84.76458524490458,
+      "danceability": 26.438737336693276,
+      "valence": 62.53842960675264,
+      "tempo": 100.0,
+      "skip_inv": 1.9149542717880763
+    }
+  },
+  {
+    "name": "Calling (Lose My Mind) - Radio Edit",
+    "artist": "Sebastian Ingrosso",
+    "track_id": "6LNjIsgHNs4q75uPt4rYf6",
+    "quality_score": 51.3,
+    "signals": {
+      "energy": 71.05651690382433,
+      "danceability": 18.325528433582118,
+      "valence": 73.38046801229179,
+      "tempo": 100.0,
+      "skip_inv": 10.47156210812146
+    }
+  },
+  {
+    "name": "Save Your Tears",
+    "artist": "The Weeknd",
+    "track_id": "5QO79kh1waicV47BqGRL3g",
+    "quality_score": 85.0,
+    "signals": {
+      "energy": 62.47541798474829,
+      "danceability": 60.0,
+      "valence": 59.5738618417424,
+      "tempo": 100.0,
+      "skip_inv": 2.203983746078947
+    }
+  },
+  {
+    "name": "Coming Up Roses",
+    "artist": "Harry Styles",
+    "track_id": "0QPdjsMOUhwouq1NS3HwfQ",
+    "quality_score": 70.9,
+    "signals": {
+      "energy": 96.26227169354024,
+      "danceability": 60.0,
+      "valence": 76.50352475093888,
+      "tempo": 100.0,
+      "skip_inv": 35.18686419323946
+    }
+  },
+  {
+    "name": "Better Now",
+    "artist": "Post Malone",
+    "track_id": "7dt6x5M1jzdTEt8oCbisTK",
+    "quality_score": 47.0,
+    "signals": {
+      "energy": 42.972312337901826,
+      "danceability": 40.0,
+      "valence": 64.04918533826614,
+      "tempo": 75.0,
+      "skip_inv": 0.4942781484073322
+    }
+  },
+  {
+    "name": "Billboard",
+    "artist": "Lihtz",
+    "track_id": "1HnEaJgq1aQWUX5R5WiH8A",
+    "quality_score": 58.9,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 24.276149498453787,
+      "valence": 66.51470712375871,
+      "tempo": 100.0,
+      "skip_inv": 2.842876163499497
+    }
+  },
+  {
+    "name": "Fomo",
+    "artist": "The Grammy Winners",
+    "track_id": "2aqwLICEV5MJtsDHTyYYsI",
+    "quality_score": 65.8,
+    "signals": {
+      "energy": 80.9294993663503,
+      "danceability": 60.0,
+      "valence": 59.190998217026134,
+      "tempo": 100.0,
+      "skip_inv": 1.258955852086558
+    }
+  },
+  {
+    "name": "Kiss Me More (feat. SZA)",
+    "artist": "Doja Cat",
+    "track_id": "00G1HdklEr6QeKNDNh3j0z",
+    "quality_score": 86.0,
+    "signals": {
+      "energy": 69.57651960313306,
+      "danceability": 40.0,
+      "valence": 77.96921164911504,
+      "tempo": 100.0,
+      "skip_inv": 3.233352580726674
+    }
+  },
+  {
+    "name": "Popular Song",
+    "artist": "MIKA",
+    "track_id": "3iugMJEdfE58OpI7WGM38w",
+    "quality_score": 61.7,
+    "signals": {
+      "energy": 88.45982955871513,
+      "danceability": 40.0,
+      "valence": 69.74504452693827,
+      "tempo": 100.0,
+      "skip_inv": 0.5833173844910249
+    }
+  },
+  {
+    "name": "Baby",
+    "artist": "Justin Bieber",
+    "track_id": "6epn3r7S14KUqlReYr77hA",
+    "quality_score": 80.0,
+    "signals": {
+      "energy": 91.5584201961245,
+      "danceability": 60.0,
+      "valence": 66.18845673642201,
+      "tempo": 100.0,
+      "skip_inv": 6.560502658080239
+    }
+  },
+  {
+    "name": "DAISIES",
+    "artist": "Justin Bieber",
+    "track_id": "5BZsQlgw21vDOAjoqkNgKb",
+    "quality_score": 56.1,
+    "signals": {
+      "energy": 48.83883810826522,
+      "danceability": 40.0,
+      "valence": 74.50309426659565,
+      "tempo": 100.0,
+      "skip_inv": 10.921525735339003
+    }
+  },
+  {
+    "name": "Pong Dance",
+    "artist": "Vigiland",
+    "track_id": "0DBTrH6kBbF8CzNVcu5MQR",
+    "quality_score": 65.3,
+    "signals": {
+      "energy": 79.06596946681027,
+      "danceability": 60.0,
+      "valence": 68.81012120169392,
+      "tempo": 100.0,
+      "skip_inv": 6.382429192499117
+    }
+  },
+  {
+    "name": "Side To Side",
+    "artist": "Ariana Grande",
+    "track_id": "43bCmCI0nSgcT7QdMXY6LV",
+    "quality_score": 71.4,
+    "signals": {
+      "energy": 96.57490983572902,
+      "danceability": 60.0,
+      "valence": 91.24145704009482,
+      "tempo": 100.0,
+      "skip_inv": 20.46661332437587
+    }
+  },
+  {
+    "name": "Love Songs - Bonus",
+    "artist": "Kaash Paige",
+    "track_id": "6qL5UWxRSQYml9O99ozoLv",
+    "quality_score": 67.6,
+    "signals": {
+      "energy": 91.20036475107858,
+      "danceability": 60.0,
+      "valence": 62.18715918769601,
+      "tempo": 100.0,
+      "skip_inv": 20.8361438597302
+    }
+  },
+  {
+    "name": "Hits 2021",
+    "artist": "Trinix Remix",
+    "track_id": "3kKM8uOw9GIynO6imljgk9",
+    "quality_score": 63.3,
+    "signals": {
+      "energy": 96.97050521060397,
+      "danceability": 40.0,
+      "valence": 72.8246632210664,
+      "tempo": 100.0,
+      "skip_inv": 17.406818933349214
+    }
+  },
+  {
+    "name": "I Had Some Help (Feat. Morgan Wallen)",
+    "artist": "Post Malone",
+    "track_id": "5IZXB5IKAD2qlvTPJYDCFB",
+    "quality_score": 64.8,
+    "signals": {
+      "energy": 95.76307610593472,
+      "danceability": 40.0,
+      "valence": 59.4442616900529,
+      "tempo": 100.0,
+      "skip_inv": 1.355742817371592
+    }
+  },
+  {
+    "name": "Physical",
+    "artist": "Dua Lipa",
+    "track_id": "3AzjcOeAmA57TIOr9zF1ZW",
+    "quality_score": 60.7,
+    "signals": {
+      "energy": 59.16402347024613,
+      "danceability": 40.0,
+      "valence": 91.84814360225452,
+      "tempo": 100.0,
+      "skip_inv": 3.3360748863085803
+    }
+  },
+  {
+    "name": "You Belong With Me",
+    "artist": "Taylor Swift",
+    "track_id": "3GCL1PydwsLodcpv0Ll1ch",
+    "quality_score": 67.2,
+    "signals": {
+      "energy": 74.65624439515634,
+      "danceability": 60.0,
+      "valence": 87.67508735205732,
+      "tempo": 100.0,
+      "skip_inv": 8.13727335939518
+    }
+  },
+  {
+    "name": "Hits 2023",
+    "artist": "Trinix Remix",
+    "track_id": "1BJN62eRl94F566Bwvs0vr",
+    "quality_score": 50.9,
+    "signals": {
+      "energy": 52.480366953370655,
+      "danceability": 29.26688313153783,
+      "valence": 59.6940796918603,
+      "tempo": 100.0,
+      "skip_inv": 10.49021682472295
+    }
+  },
+  {
+    "name": "Fortnight (feat. Post Malone)",
+    "artist": "Taylor Swift",
+    "track_id": "2OzhQlSqBEmt7hmkYxfT6m",
+    "quality_score": 62.7,
+    "signals": {
+      "energy": 92.90275635416046,
+      "danceability": 40.0,
+      "valence": 57.35841541166987,
+      "tempo": 100.0,
+      "skip_inv": 1.5205869266301306
+    }
+  },
+  {
+    "name": "There's a Kind of Hush",
+    "artist": "Herman's Hermits",
+    "track_id": "3DKAq9aMrVXU9vWgCJxFOd",
+    "quality_score": 67.3,
+    "signals": {
+      "energy": 80.36774814442403,
+      "danceability": 60.0,
+      "valence": 81.23144387392873,
+      "tempo": 100.0,
+      "skip_inv": 7.633422179253387
+    }
+  },
+  {
+    "name": "2023 Top Hits",
+    "artist": "Todays Top Hits Mix",
+    "track_id": "7aqP6ukyyBeXKiWbPbYatR",
+    "quality_score": 56.1,
+    "signals": {
+      "energy": 99.18774943360218,
+      "danceability": 20.974738113028206,
+      "valence": 58.396554819653005,
+      "tempo": 100.0,
+      "skip_inv": 11.347306542695932
+    }
+  },
+  {
+    "name": "Blue (Da Ba Dee) - Gabry Ponte Video Edit",
+    "artist": "Eiffel 65",
+    "track_id": "7lMIJ4EFWRVoAIPDpeGyM3",
+    "quality_score": 84.0,
+    "signals": {
+      "energy": 96.03852883672197,
+      "danceability": 60.0,
+      "valence": 88.64774989449421,
+      "tempo": 100.0,
+      "skip_inv": 27.920959425554443
+    }
+  },
+  {
+    "name": "Passionfruit",
+    "artist": "Drake",
+    "track_id": "5mCPDVBb16L4XQwDdbRUpz",
+    "quality_score": 48.6,
+    "signals": {
+      "energy": 44.10190508897619,
+      "danceability": 26.201817580148248,
+      "valence": 64.57141580400663,
+      "tempo": 100.0,
+      "skip_inv": 5.572803438240143
+    }
+  },
+  {
+    "name": "Nancy Mulligan",
+    "artist": "Ed Sheeran",
+    "track_id": "35QZaWQRkmnAVqBF1TLCxQ",
+    "quality_score": 69.9,
+    "signals": {
+      "energy": 98.80336140287098,
+      "danceability": 40.0,
+      "valence": 92.43755388563079,
+      "tempo": 100.0,
+      "skip_inv": 20.94179674125529
+    }
+  },
+  {
+    "name": "Cruel Summer",
+    "artist": "Taylor Swift",
+    "track_id": "1BxfuPKGuaTgP7aM0Bbdwr",
+    "quality_score": 91.0,
+    "signals": {
+      "energy": 64.0375068785744,
+      "danceability": 40.0,
+      "valence": 70.76902437655622,
+      "tempo": 100.0,
+      "skip_inv": 17.749799712187524
+    }
+  },
+  {
+    "name": "Blue (Da Ba Dee) - Gabry Ponte Ice Pop Radio",
+    "artist": "Eiffel 65",
+    "track_id": "4GewRLEiI4BDTQsoH8BRVV",
+    "quality_score": 84.0,
+    "signals": {
+      "energy": 86.93736307109509,
+      "danceability": 18.324976706414002,
+      "valence": 66.97334505445195,
+      "tempo": 100.0,
+      "skip_inv": 4.446299130427818
+    }
+  },
+  {
+    "name": "MENTHOL*",
+    "artist": "Jean Dawson",
+    "track_id": "2nMTBUdxkdCZWo7n3upy1e",
+    "quality_score": 49.6,
+    "signals": {
+      "energy": 47.80551908439037,
+      "danceability": 20.955701372881208,
+      "valence": 86.28120114546644,
+      "tempo": 100.0,
+      "skip_inv": 7.54957318723271
+    }
+  },
+  {
+    "name": "Sorry",
+    "artist": "Justin Bieber",
+    "track_id": "09CtPGIpYB4BrO8qb1RGsF",
+    "quality_score": 87.0,
+    "signals": {
+      "energy": 85.55694483649869,
+      "danceability": 40.0,
+      "valence": 88.90760983582581,
+      "tempo": 100.0,
+      "skip_inv": 25.258849346329185
+    }
+  },
+  {
+    "name": "Malabari Banger",
+    "artist": "M.H.R",
+    "track_id": "1EZspaigWxMos36accKNMM",
+    "quality_score": 52.4,
+    "signals": {
+      "energy": 72.91924726775923,
+      "danceability": 18.38260662557721,
+      "valence": 79.90950343742985,
+      "tempo": 100.0,
+      "skip_inv": 9.112182822155134
+    }
+  },
+  {
+    "name": "Still - Recorded at Spotify Studios Stockholm",
+    "artist": "Hov1",
+    "track_id": "5CjIVxNTlIA1OuIAk7juR1",
+    "quality_score": 67.8,
+    "signals": {
+      "energy": 80.20577009389658,
+      "danceability": 60.0,
+      "valence": 80.48663204534921,
+      "tempo": 100.0,
+      "skip_inv": 17.947681489934922
+    }
+  },
+  {
+    "name": "Anniversary",
+    "artist": "Tony! Toni! Ton\u00e9!",
+    "track_id": "6PViGgcsQhLPSkMxgoRWLl",
+    "quality_score": 52.0,
+    "signals": {
+      "energy": 63.23163034017636,
+      "danceability": 20.844468670550313,
+      "valence": 83.08394828092882,
+      "tempo": 100.0,
+      "skip_inv": 3.6314258325341484
+    }
+  },
+  {
+    "name": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "track_id": "3PfIrDoz19wz7qK7tYeu62",
+    "quality_score": 92.0,
+    "signals": {
+      "energy": 89.27805888880738,
+      "danceability": 40.0,
+      "valence": 60.25485562414873,
+      "tempo": 100.0,
+      "skip_inv": 1.3977589696022648
+    }
+  },
+  {
+    "name": "Levitating",
+    "artist": "Dua Lipa",
+    "track_id": "39LLxExYz6ewLAcYrzQQyP",
+    "quality_score": 94.0,
+    "signals": {
+      "energy": 92.52087485749048,
+      "danceability": 27.123607204120272,
+      "valence": 71.08128773692619,
+      "tempo": 100.0,
+      "skip_inv": 6.382184742705661
+    }
+  },
+  {
+    "name": "Shake It Off",
+    "artist": "Taylor Swift",
+    "track_id": "5xTtaWoae3wi06K5WfVUUH",
+    "quality_score": 88.0,
+    "signals": {
+      "energy": 49.41658291521653,
+      "danceability": 19.531811640237976,
+      "valence": 83.37038841499859,
+      "tempo": 100.0,
+      "skip_inv": 6.207851915262054
+    }
+  },
+  {
+    "name": "Dangerous Woman",
+    "artist": "Ariana Grande",
+    "track_id": "6RUhbFEhrvGISaQ8u2j2JN",
+    "quality_score": 57.7,
+    "signals": {
+      "energy": 100.0,
+      "danceability": 18.11567969519334,
+      "valence": 82.7981580409735,
+      "tempo": 100.0,
+      "skip_inv": 6.133901944049541
+    }
+  },
+  {
+    "name": "34+35",
+    "artist": "Ariana Grande",
+    "track_id": "6Im9k8u9iIzKMrmV7BWtlF",
+    "quality_score": 55.8,
+    "signals": {
+      "energy": 90.72587132018558,
+      "danceability": 22.640186261297572,
+      "valence": 62.83946393576296,
+      "tempo": 100.0,
+      "skip_inv": 1.5402193655893086
+    }
+  },
+  {
+    "name": "Break My Heart",
+    "artist": "Dua Lipa",
+    "track_id": "017PF4Q3l4DBUiWoXk4OWT",
+    "quality_score": 50.3,
+    "signals": {
+      "energy": 55.1267775084352,
+      "danceability": 27.127774247475614,
+      "valence": 56.836965268370406,
+      "tempo": 100.0,
+      "skip_inv": 2.836081699030828
+    }
+  },
+  {
+    "name": "TOI HECHO",
+    "artist": "Milo j",
+    "track_id": "1qjb7lJPQ4oxQ3kSeZYXlt",
+    "quality_score": 59.5,
+    "signals": {
+      "energy": 65.8749041740115,
+      "danceability": 40.0,
+      "valence": 73.30539940725126,
+      "tempo": 100.0,
+      "skip_inv": 3.212097036456967
+    }
+  },
+  {
+    "name": "Beauty And A Beat",
+    "artist": "Justin Bieber",
+    "track_id": "190jyVPHYjAqEaOGmMzdyk",
+    "quality_score": 52.3,
+    "signals": {
+      "energy": 78.51100081197201,
+      "danceability": 18.92858551209909,
+      "valence": 67.6266201339522,
+      "tempo": 100.0,
+      "skip_inv": 4.285479568459323
+    }
+  },
+  {
+    "name": "rockstar (feat. 21 Savage)",
+    "artist": "Post Malone",
+    "track_id": "0e7ipj03S05BNilyu5bRzt",
+    "quality_score": 87.0,
+    "signals": {
+      "energy": 79.29092442206625,
+      "danceability": 60.0,
+      "valence": 88.58981299389299,
+      "tempo": 100.0,
+      "skip_inv": 9.189783970231076
+    }
+  },
+  {
+    "name": "Levitating (feat. DaBaby)",
+    "artist": "Dua Lipa",
+    "track_id": "5nujrmhLynf4yMoMtj8AQF",
+    "quality_score": 94.0,
+    "signals": {
+      "energy": 93.48299683167433,
+      "danceability": 40.0,
+      "valence": 63.243709719224924,
+      "tempo": 100.0,
+      "skip_inv": 6.226604807670071
+    }
+  },
+  {
+    "name": "Twisted",
+    "artist": "Keith Sweat",
+    "track_id": "69QIVIjPMnI1ABLBqh9P1b",
+    "quality_score": 59.9,
+    "signals": {
+      "energy": 95.59206023423374,
+      "danceability": 27.07891393172656,
+      "valence": 72.48425939001314,
+      "tempo": 100.0,
+      "skip_inv": 15.305411150399891
+    }
+  },
+  {
+    "name": "Save Your Tears (Remix) (with Ariana Grande) - Bonus Track",
+    "artist": "The Weeknd",
+    "track_id": "1oFAF1hdPOickyHgbuRjyX",
+    "quality_score": 85.0,
+    "signals": {
+      "energy": 46.525398836944596,
+      "danceability": 60.0,
+      "valence": 65.62558885015928,
+      "tempo": 75.0,
+      "skip_inv": 1.593800081276143
+    }
+  },
+  {
+    "name": "In My House - Single Version",
+    "artist": "Mary Jane Girls",
+    "track_id": "62EAqniDMuMIk92eoBZJ5p",
+    "quality_score": 61.0,
+    "signals": {
+      "energy": 70.16018204419001,
+      "danceability": 40.0,
+      "valence": 72.89427755911882,
+      "tempo": 100.0,
+      "skip_inv": 4.113500174693542
+    }
+  },
+  {
+    "name": "One Kiss - Recorded At Spotify Studios Stockholm",
+    "artist": "Scarlet Pleasure",
+    "track_id": "3T8dc6UY2XubK8BTrYizA4",
+    "quality_score": 47.0,
+    "signals": {
+      "energy": 55.01964683831019,
+      "danceability": 23.8621032015534,
+      "valence": 67.36130966876257,
+      "tempo": 75.0,
+      "skip_inv": 3.1905007728420856
+    }
+  },
+  {
+    "name": "Taste Back",
+    "artist": "Harry Styles",
+    "track_id": "3xClevycpBON8bkyxFbAna",
+    "quality_score": 60.2,
+    "signals": {
+      "energy": 63.69872786094311,
+      "danceability": 40.0,
+      "valence": 81.82362152426876,
+      "tempo": 100.0,
+      "skip_inv": 22.246459516124133
+    }
+  },
+  {
+    "name": "Thong Song",
+    "artist": "Sisqo",
+    "track_id": "5Mmk2ii6laakqfeCT7OnVD",
+    "quality_score": 56.0,
+    "signals": {
+      "energy": 66.99127546947517,
+      "danceability": 40.0,
+      "valence": 58.669959292201284,
+      "tempo": 75.0,
+      "skip_inv": 3.6161406415345
+    }
+  },
+  {
+    "name": "The Weekend",
+    "artist": "SZA",
+    "track_id": "6gU9OKjOE7ghfEd55oRO57",
+    "quality_score": 54.3,
+    "signals": {
+      "energy": 53.93449159163499,
+      "danceability": 40.0,
+      "valence": 73.1542541304303,
+      "tempo": 100.0,
+      "skip_inv": 9.440958150679222
+    }
+  },
+  {
+    "name": "Sign of the Times",
+    "artist": "Harry Styles",
+    "track_id": "5Ohxk2dO5COHF1krpoPigN",
+    "quality_score": 55.2,
+    "signals": {
+      "energy": 67.10060101126955,
+      "danceability": 28.302067859081912,
+      "valence": 75.9090131131578,
+      "tempo": 100.0,
+      "skip_inv": 5.086423923785361
+    }
+  },
+  {
+    "name": "Ritmista 1.0",
+    "artist": "DJ WN",
+    "track_id": "3ZNjlT5zR0jkEVzSSZCQeJ",
+    "quality_score": 61.1,
+    "signals": {
+      "energy": 89.38319036404769,
+      "danceability": 28.558146693651736,
+      "valence": 88.2356856477401,
+      "tempo": 100.0,
+      "skip_inv": 6.307905605896266
+    }
+  },
+  {
+    "name": "Bad Habit",
+    "artist": "Steve Lacy",
+    "track_id": "04IhS0mnxOuI0QSgDyn9z5",
+    "quality_score": 79.0,
+    "signals": {
+      "energy": 72.16080455900801,
+      "danceability": 21.152651548059556,
+      "valence": 65.24730946211676,
+      "tempo": 100.0,
+      "skip_inv": 12.330629016110109
+    }
+  },
+  {
+    "name": "Tik Tik Tik",
+    "artist": "Maxnormal.tv",
+    "track_id": "60GqGWMQsr4r3Rl0lDVQBV",
+    "quality_score": 56.1,
+    "signals": {
+      "energy": 56.549737888001346,
+      "danceability": 40.0,
+      "valence": 84.1504578677752,
+      "tempo": 100.0,
+      "skip_inv": 15.414015171417745
+    }
+  },
+  {
+    "name": "Take What You Want (feat. Ozzy Osbourne & Travis Scott)",
+    "artist": "Post Malone",
+    "track_id": "7CZyCXKG6d5ALeq41sLzbw",
+    "quality_score": 59.9,
+    "signals": {
+      "energy": 56.86077946080464,
+      "danceability": 60.0,
+      "valence": 56.625373629318986,
+      "tempo": 100.0,
+      "skip_inv": 0.21933414222169745
+    }
+  },
+  {
+    "name": "2002",
+    "artist": "Anne-Marie",
+    "track_id": "2BgEsaKNfHUdlh97KmvFyo",
+    "quality_score": 75.0,
+    "signals": {
+      "energy": 64.01353888386122,
+      "danceability": 60.0,
+      "valence": 88.08905575251453,
+      "tempo": 100.0,
+      "skip_inv": 5.300545029572959
+    }
+  },
+  {
+    "name": "You Need To Calm Down",
+    "artist": "Taylor Swift",
+    "track_id": "6RRNNciQGZEXnqk8SQ9yv5",
+    "quality_score": 62.6,
+    "signals": {
+      "energy": 83.96979690878021,
+      "danceability": 40.0,
+      "valence": 65.15374119759875,
+      "tempo": 100.0,
+      "skip_inv": 4.862595991970295
+    }
+  },
+  {
+    "name": "BILLIE EILISH.",
+    "artist": "Armani White",
+    "track_id": "2tDOCMuKSX9IEo9TJ4pBBk",
+    "quality_score": 71.1,
+    "signals": {
+      "energy": 96.99041806418738,
+      "danceability": 60.0,
+      "valence": 83.3036139669485,
+      "tempo": 100.0,
+      "skip_inv": 10.483667490796407
+    }
+  }
+]
