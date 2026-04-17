@@ -59,7 +59,11 @@ class MERTEmbedder:
             y, sampling_rate=24000, return_tensors="pt"
         )
         with torch.no_grad():
-            outputs = self._model(**inputs, output_hidden_states=True, return_dict=True)
+            # Filter to only keys MERT accepts — processor may add extras
+            safe = {k: v for k, v in inputs.items() if k in ("input_values", "attention_mask")}
+            # Use base_model.model to bypass PEFT's forward wrapper (avoids input_ids injection)
+            inner = self._model.base_model.model if self._lora_loaded else self._model
+            outputs = inner(**safe, output_hidden_states=True, return_dict=True)
         # Average last 4 hidden layers for richer representation
         hidden = torch.stack(outputs.hidden_states[-4:]).mean(dim=0)
         embedding = hidden.mean(dim=1).squeeze().numpy()
