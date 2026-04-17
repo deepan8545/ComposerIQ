@@ -214,7 +214,9 @@ def train(pairs: list, n_epochs: int = 5, lr: float = 1e-4, batch_size: int = 4)
                     inputs = processor(y, sampling_rate=24000, return_tensors="pt")
                     inputs = {k: v.to(device) for k, v in inputs.items()}
 
-                    out = peft_model(
+                    # Call the inner MERT model directly to avoid PEFT's forward
+                    # wrapper injecting `input_ids` (an LLM concept MERT rejects).
+                    out = peft_model.base_model.model(
                         **inputs, output_hidden_states=True, return_dict=True
                     )
                     # Mean-pool last 4 hidden layers

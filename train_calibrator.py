@@ -93,7 +93,7 @@ def analyze_tracks(tracks: list[dict], cluster_stats: dict) -> tuple[list[dict],
     skipped = []
 
     for i, t in enumerate(tracks):
-        audio_path = t.get("audio_path", "")
+        audio_path = (t.get("audio_path") or "")
         name = t.get("name", "Unknown")
         artist = t.get("artist", "Unknown")
         label = f"{name} by {artist}"
