@@ -27,3 +27,14 @@ colab_bundle.zip
 *.mp4
 *.m4a
 *.DS_Store
+
+# Large training artifacts
+training_bundle.zip
+colab_bundle.zip
+models/training_data.json
+benchmark_audio/
+=2.0.0
+
+# Keep models/ folder but exclude large files
+models/enriched_tracks.json
+models/
